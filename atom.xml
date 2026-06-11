@@ -6,7 +6,7 @@
   <link href="https://ricky2333.github.io/atom.xml" rel="self"/>
   
   <link href="https://ricky2333.github.io/"/>
-  <updated>2026-05-15T09:05:00.000Z</updated>
+  <updated>2026-06-11T09:21:41.777Z</updated>
   <id>https://ricky2333.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>AI手记｜国内外AI巨头调研</title>
-    <link href="https://ricky2333.github.io/2026/05/15/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/"/>
-    <id>https://ricky2333.github.io/2026/05/15/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/</id>
-    <published>2026-05-15T02:00:00.000Z</published>
-    <updated>2026-05-15T09:05:00.000Z</updated>
+    <link href="https://ricky2333.github.io/2026/06/03/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/"/>
+    <id>https://ricky2333.github.io/2026/06/03/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/</id>
+    <published>2026-06-03T02:00:00.000Z</published>
+    <updated>2026-06-11T09:21:41.777Z</updated>
     
     
       
@@ -46,6 +46,37 @@
     <category term="AI手记" scheme="https://ricky2333.github.io/tags/AI%E6%89%8B%E8%AE%B0/"/>
     
     <category term="AI行业观察" scheme="https://ricky2333.github.io/tags/AI%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI工坊｜云服务器GUI配置</title>
+    <link href="https://ricky2333.github.io/2026/05/22/ai-gong-fang-yun-fu-wu-qi-pei-zhi-gui/"/>
+    <id>https://ricky2333.github.io/2026/05/22/ai-gong-fang-yun-fu-wu-qi-pei-zhi-gui/</id>
+    <published>2026-05-22T04:40:00.000Z</published>
+    <updated>2026-05-22T17:46:32.582Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;AI工坊｜云服务器GUI配置&quot;&gt;&lt;a href=&quot;#AI工坊｜云服务器GUI配置&quot; class=&quot;headerlink&quot; title=&quot;AI工坊｜云服务器GUI配置&quot;&gt;&lt;/a&gt;AI工坊｜云服务器GUI配置&lt;/h1&gt;&lt;p&gt;大家好，我是 Ricky</summary>
+        
+      
+    
+    
+    
+    <category term="AI工坊" scheme="https://ricky2333.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
+    
+    
+    <category term="AI" scheme="https://ricky2333.github.io/tags/AI/"/>
+    
+    <category term="Linux" scheme="https://ricky2333.github.io/tags/Linux/"/>
+    
+    <category term="服务器" scheme="https://ricky2333.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="AI工坊" scheme="https://ricky2333.github.io/tags/AI%E5%B7%A5%E5%9D%8A/"/>
     
   </entry>
   
@@ -82,11 +113,40 @@
   </entry>
   
   <entry>
+    <title>AI工坊｜Claude Code 指北</title>
+    <link href="https://ricky2333.github.io/2026/04/25/ai-gong-fang-claude-code-zhi-bei/"/>
+    <id>https://ricky2333.github.io/2026/04/25/ai-gong-fang-claude-code-zhi-bei/</id>
+    <published>2026-04-25T06:30:00.000Z</published>
+    <updated>2026-06-11T09:24:35.576Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Claude Code 是 &lt;a href=&quot;https://www.anthropic.com/&quot;&gt;Anthropic&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="AI工坊" scheme="https://ricky2333.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
+    
+    
+    <category term="人工智能" scheme="https://ricky2333.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="AI Coding" scheme="https://ricky2333.github.io/tags/AI-Coding/"/>
+    
+    <category term="Claude Code" scheme="https://ricky2333.github.io/tags/Claude-Code/"/>
+    
+  </entry>
+  
+  <entry>
     <title>AI手记｜教非工科学长Vibe Coding学到的...</title>
-    <link href="https://ricky2333.github.io/2026/05/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/"/>
-    <id>https://ricky2333.github.io/2026/05/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/</id>
-    <published>2026-05-08T05:02:35.000Z</published>
-    <updated>2026-05-09T02:20:30.317Z</updated>
+    <link href="https://ricky2333.github.io/2026/04/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/"/>
+    <id>https://ricky2333.github.io/2026/04/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/</id>
+    <published>2026-04-08T05:02:35.000Z</published>
+    <updated>2026-06-11T09:23:03.940Z</updated>
     
     
       
@@ -111,29 +171,36 @@
   </entry>
   
   <entry>
-    <title>摄影｜构图指北</title>
-    <link href="https://ricky2333.github.io/2026/04/16/she-ying-ji-chu-gou-tu/"/>
-    <id>https://ricky2333.github.io/2026/04/16/she-ying-ji-chu-gou-tu/</id>
-    <published>2026-04-16T14:15:58.000Z</published>
-    <updated>2026-05-09T02:28:38.953Z</updated>
+    <title>AI工坊｜Claude Code部署</title>
+    <link href="https://ricky2333.github.io/2026/03/28/ai-gong-fang-claude-code-bu-shu/"/>
+    <id>https://ricky2333.github.io/2026/03/28/ai-gong-fang-claude-code-bu-shu/</id>
+    <published>2026-03-28T05:58:33.000Z</published>
+    <updated>2026-06-11T09:24:59.064Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;摄影｜构图&quot;&gt;&lt;a href=&quot;#摄影｜构图&quot; class=&quot;headerlink&quot; title=&quot;摄影｜构图&quot;&gt;&lt;/a&gt;摄影｜构图&lt;/h1&gt;&lt;h2 id=&quot;学习资料&quot;&gt;&lt;a href=&quot;#学习资料&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;本文使用设备&lt;/strong&gt;：MacBook Pro (M1 Pro, 16GB)，macOS Monterey 12.3.1，仅供参考&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;</summary>
         
       
     
     
     
-    <category term="摄影" scheme="https://ricky2333.github.io/categories/%E6%91%84%E5%BD%B1/"/>
+    <category term="AI工坊" scheme="https://ricky2333.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
     
     
-    <category term="摄影" scheme="https://ricky2333.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    <category term="人工智能" scheme="https://ricky2333.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
-    <category term="构图" scheme="https://ricky2333.github.io/tags/%E6%9E%84%E5%9B%BE/"/>
+    <category term="AI Coding" scheme="https://ricky2333.github.io/tags/AI-Coding/"/>
+    
+    <category term="AI工具" scheme="https://ricky2333.github.io/tags/AI%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="AI" scheme="https://ricky2333.github.io/tags/AI/"/>
     
   </entry>
   
@@ -165,19 +232,18 @@
   </entry>
   
   <entry>
-    <title>摄影｜私藏摄影师清单</title>
-    <link href="https://ricky2333.github.io/2026/03/07/she-ying-si-cang-she-ying-shi-qing-dan/"/>
-    <id>https://ricky2333.github.io/2026/03/07/she-ying-si-cang-she-ying-shi-qing-dan/</id>
-    <published>2026-03-07T02:22:03.000Z</published>
-    <updated>2026-05-09T02:24:16.825Z</updated>
+    <title>摄影｜构图指北</title>
+    <link href="https://ricky2333.github.io/2026/02/16/she-ying-ji-chu-gou-tu/"/>
+    <id>https://ricky2333.github.io/2026/02/16/she-ying-ji-chu-gou-tu/</id>
+    <published>2026-02-16T14:15:58.000Z</published>
+    <updated>2026-06-11T09:20:51.345Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;摊主推荐の摄影博主&quot;&gt;&lt;a href=&quot;#摊主推荐の摄影博主&quot; class=&quot;headerlink&quot; title=&quot;摊主推荐の摄影博主&quot;&gt;&lt;/a&gt;摊主推荐の摄影博主&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;这是一份摊主私藏的摄影博主推荐清单。 </summary>
+    <summary type="html">&lt;h1 id=&quot;摄影｜构图&quot;&gt;&lt;a href=&quot;#摄影｜构图&quot; class=&quot;headerlink&quot; title=&quot;摄影｜构图&quot;&gt;&lt;/a&gt;摄影｜构图&lt;/h1&gt;&lt;h2 id=&quot;学习资料&quot;&gt;&lt;a href=&quot;#学习资料&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -188,70 +254,7 @@
     
     <category term="摄影" scheme="https://ricky2333.github.io/tags/%E6%91%84%E5%BD%B1/"/>
     
-    <category term="摄影鉴赏" scheme="https://ricky2333.github.io/tags/%E6%91%84%E5%BD%B1%E9%89%B4%E8%B5%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI工坊｜Claude Code 指北</title>
-    <link href="https://ricky2333.github.io/2026/02/16/ai-gong-fang-claude-code-zhi-bei/"/>
-    <id>https://ricky2333.github.io/2026/02/16/ai-gong-fang-claude-code-zhi-bei/</id>
-    <published>2026-02-16T06:30:00.000Z</published>
-    <updated>2026-02-16T15:22:35.889Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Claude Code 是 &lt;a href=&quot;https://www.anthropic.com/&quot;&gt;Anthropic&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="AI工坊" scheme="https://ricky2333.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
-    
-    
-    <category term="人工智能" scheme="https://ricky2333.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="AI Coding" scheme="https://ricky2333.github.io/tags/AI-Coding/"/>
-    
-    <category term="Claude Code" scheme="https://ricky2333.github.io/tags/Claude-Code/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI工坊｜Claude Code部署</title>
-    <link href="https://ricky2333.github.io/2026/02/16/ai-gong-fang-claude-code-bu-shu/"/>
-    <id>https://ricky2333.github.io/2026/02/16/ai-gong-fang-claude-code-bu-shu/</id>
-    <published>2026-02-16T05:58:33.000Z</published>
-    <updated>2026-02-16T07:21:00.241Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;本文使用设备&lt;/strong&gt;：MacBook Pro (M1 Pro, 16GB)，macOS Monterey 12.3.1，仅供参考&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="AI工坊" scheme="https://ricky2333.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
-    
-    
-    <category term="人工智能" scheme="https://ricky2333.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="AI工具" scheme="https://ricky2333.github.io/tags/AI%E5%B7%A5%E5%85%B7/"/>
-    
-    <category term="AI Coding" scheme="https://ricky2333.github.io/tags/AI-Coding/"/>
-    
-    <category term="AI" scheme="https://ricky2333.github.io/tags/AI/"/>
+    <category term="构图" scheme="https://ricky2333.github.io/tags/%E6%9E%84%E5%9B%BE/"/>
     
   </entry>
   
@@ -310,6 +313,34 @@
     <category term="AI" scheme="https://ricky2333.github.io/tags/AI/"/>
     
     <category term="Agent" scheme="https://ricky2333.github.io/tags/Agent/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>摄影｜私藏摄影师清单</title>
+    <link href="https://ricky2333.github.io/2026/02/11/she-ying-si-cang-she-ying-shi-qing-dan/"/>
+    <id>https://ricky2333.github.io/2026/02/11/she-ying-si-cang-she-ying-shi-qing-dan/</id>
+    <published>2026-02-11T02:22:03.000Z</published>
+    <updated>2026-06-11T09:20:36.457Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;摊主推荐の摄影博主&quot;&gt;&lt;a href=&quot;#摊主推荐の摄影博主&quot; class=&quot;headerlink&quot; title=&quot;摊主推荐の摄影博主&quot;&gt;&lt;/a&gt;摊主推荐の摄影博主&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这是一份摊主私藏的摄影博主推荐清单。 </summary>
+        
+      
+    
+    
+    
+    <category term="摄影" scheme="https://ricky2333.github.io/categories/%E6%91%84%E5%BD%B1/"/>
+    
+    
+    <category term="摄影" scheme="https://ricky2333.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    
+    <category term="摄影鉴赏" scheme="https://ricky2333.github.io/tags/%E6%91%84%E5%BD%B1%E9%89%B4%E8%B5%8F/"/>
     
   </entry>
   
@@ -572,37 +603,6 @@
     <category term="AtCoder" scheme="https://ricky2333.github.io/tags/AtCoder/"/>
     
     <category term="排列" scheme="https://ricky2333.github.io/tags/%E6%8E%92%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AtCoder题解｜ID</title>
-    <link href="https://ricky2333.github.io/2025/12/18/atcoder-ti-jie-id/"/>
-    <id>https://ricky2333.github.io/2025/12/18/atcoder-ti-jie-id/</id>
-    <published>2025-12-18T15:24:34.000Z</published>
-    <updated>2026-01-27T09:45:11.956Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;AtCoder题解｜ABC-113C-ID&quot;&gt;&lt;a href=&quot;#AtCoder题解｜ABC-113C-ID&quot; class=&quot;headerlink&quot; title=&quot;AtCoder题解｜ABC 113C ID&quot;&gt;&lt;/a&gt;AtCoder题解｜ABC 113C</summary>
-        
-      
-    
-    
-    
-    <category term="AtCoder题解" scheme="https://ricky2333.github.io/categories/AtCoder%E9%A2%98%E8%A7%A3/"/>
-    
-    
-    <category term="信息奥赛" scheme="https://ricky2333.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A5%A5%E8%B5%9B/"/>
-    
-    <category term="AtCoder" scheme="https://ricky2333.github.io/tags/AtCoder/"/>
-    
-    <category term="模拟" scheme="https://ricky2333.github.io/tags/%E6%A8%A1%E6%8B%9F/"/>
-    
-    <category term="多级排序" scheme="https://ricky2333.github.io/tags/%E5%A4%9A%E7%BA%A7%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   

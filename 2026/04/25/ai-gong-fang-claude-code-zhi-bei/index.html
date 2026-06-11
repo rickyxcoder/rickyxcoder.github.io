@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="AI工坊｜Claude Code部署, Rickyの水果摊">
+    <meta name="keywords" content="AI工坊｜Claude Code 指北, Rickyの水果摊">
     <meta name="description" content="Rickyの个人博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>AI工坊｜Claude Code部署 | Rickyの水果摊</title>
+    <title>AI工坊｜Claude Code 指北 | Rickyの水果摊</title>
     <link rel="icon" type="image/png" href="https://ricky-typora-notes.oss-cn-hangzhou.aliyuncs.com/avatar_circle_mini.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -1097,12 +1097,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/33.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/31.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">AI工坊｜Claude Code部署</h1>
+                    <h1 class="description center-align post-title">AI工坊｜Claude Code 指北</h1>
                 </div>
             </div>
         </div>
@@ -1227,16 +1227,12 @@
                                 <span class="chip bg-color">人工智能</span>
                             </a>
                         
-                            <a href="/tags/AI%E5%B7%A5%E5%85%B7/">
-                                <span class="chip bg-color">AI工具</span>
-                            </a>
-                        
                             <a href="/tags/AI-Coding/">
                                 <span class="chip bg-color">AI Coding</span>
                             </a>
                         
-                            <a href="/tags/AI/">
-                                <span class="chip bg-color">AI</span>
+                            <a href="/tags/Claude-Code/">
+                                <span class="chip bg-color">Claude Code</span>
                             </a>
                         
                     </div>
@@ -1260,7 +1256,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2026-02-16
+                    2026-04-25
                 </div>
                 
 
@@ -1269,14 +1265,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    650
+                    1.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    4 分
                 </div>
                 
 
@@ -1299,67 +1295,157 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <blockquote>
-<p><strong>本文使用设备</strong>：MacBook Pro (M1 Pro, 16GB)，macOS Monterey 12.3.1，仅供参考</p>
-</blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Claude Code 是 <a target="_blank" rel="noopener" href="https://www.anthropic.com/">Anthropic</a> 公司推出的 AI 编程助手，相比其他 AI 编程工具，它具有以下独特优势：</p>
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Claude Code 是 <a target="_blank" rel="noopener" href="https://www.anthropic.com/">Anthropic</a> 公司推出的 AI 编程助手，它不仅是一个简单的代码补全工具，而是一个能够真正”动手”完成任务的 AI 助手。</p>
+<p>本文将介绍 Claude Code 的基础配置、使用场景以及优质教程资源，帮助你快速上手这个强大的 AI 编程工具。</p>
+<h2 id="一、Claude-Code-核心特性"><a href="#一、Claude-Code-核心特性" class="headerlink" title="一、Claude Code 核心特性"></a>一、Claude Code 核心特性</h2><h3 id="1-1-强大的工具调用能力"><a href="#1-1-强大的工具调用能力" class="headerlink" title="1.1 强大的工具调用能力"></a>1.1 强大的工具调用能力</h3><p>Claude Code 提供了丰富的工具，可以直接执行各种操作：</p>
 <ul>
-<li><strong>CLI 体验</strong>：无需 IDE 插件，直接在终端运行，启动快速，符合开发者工作流</li>
-<li><strong>强大的工具调用能力</strong>：可以直接读取文件、搜索代码、执行 Bash 命令，真正”动手”完成任务，而不仅仅是提供建议</li>
-<li><strong>出色的代码理解能力</strong>：对代码上下文的理解深入准确，尤其擅长大型代码库的分析和处理</li>
+<li><strong>文件操作</strong>：读取、编辑、创建、搜索文件</li>
+<li><strong>Bash 命令</strong>：执行终端命令、运行脚本</li>
+<li><strong>代码理解</strong>：分析代码库、搜索函数定义</li>
+<li><strong>任务编排</strong>：创建和管理多步骤任务</li>
 </ul>
-<p>然而，由于 Claude Code 默认使用 Anthropic API，国内用户直接使用会遇到网络访问问题。</p>
-<p>本文将介绍如何通过 MiniMax 提供的 API 来在国内使用 Claude Code。</p>
-<h2 id="一、注册-Claude-账号"><a href="#一、注册-Claude-账号" class="headerlink" title="一、注册 Claude 账号"></a>一、注册 Claude 账号</h2><p>由于 Claude 账号注册需要美国手机号验证，国内用户可以使用第三方接码平台完成注册。</p>
-<blockquote>
-<p>Claude账号注册：<a target="_blank" rel="noopener" href="https://claude.ai/">https://claude.ai</a></p>
-<p>参考接码平台：<a target="_blank" rel="noopener" href="https://hero-sms.com/cn">hero-sms.com</a></p>
-</blockquote>
-<h2 id="二、安装-Claude-Code"><a href="#二、安装-Claude-Code" class="headerlink" title="二、安装 Claude Code"></a>二、安装 Claude Code</h2><blockquote>
-<p>官方安装说明请参考：<a target="_blank" rel="noopener" href="https://docs.claude.com/en/docs/claude-code/setup">Claude Code 官方文档</a></p>
-</blockquote>
-<p>确保本地已安装 Node.js 环境，然后在终端执行以下命令安装 Claude Code：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> @anthropic-ai/claude-code<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="1-2-多种交互模式"><a href="#1-2-多种交互模式" class="headerlink" title="1.2 多种交互模式"></a>1.2 多种交互模式</h3><ul>
+<li><strong>对话模式</strong>：直接对话，获取解答和建议</li>
+<li><strong>Task 模式</strong>：创建后台任务，让 AI 异步处理</li>
+<li><strong>Plan 模式</strong>：规划复杂任务的实现步骤</li>
+<li><strong>ExitPlanMode</strong>：完成规划后进入执行模式</li>
+</ul>
+<h3 id="1-3-智能的代码处理"><a href="#1-3-智能的代码处理" class="headerlink" title="1.3 智能的代码处理"></a>1.3 智能的代码处理</h3><ul>
+<li>自动理解项目结构和代码上下文</li>
+<li>支持多文件同时编辑</li>
+<li>尊重现有代码风格和项目规范</li>
+</ul>
+<h2 id="二、基础配置"><a href="#二、基础配置" class="headerlink" title="二、基础配置"></a>二、基础配置</h2><h3 id="2-1-安装"><a href="#2-1-安装" class="headerlink" title="2.1 安装"></a>2.1 安装</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 使用 npm 全局安装</span>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> @anthropic-ai/claude-code
 
-<p>安装完成后，可以在终端中运行 <code>claude --version</code> 验证安装是否成功。</p>
-<h2 id="三、配置-MiniMax-API"><a href="#三、配置-MiniMax-API" class="headerlink" title="三、配置 MiniMax API"></a>三、配置 MiniMax API</h2><blockquote>
-<p>MiniMax API 配置主要参考 <a target="_blank" rel="noopener" href="https://platform.minimaxi.com/docs/coding-plan/claude-code">MiniMax 官方文档</a></p>
-</blockquote>
-<h3 id="1-安装-cc-switch"><a href="#1-安装-cc-switch" class="headerlink" title="1. 安装 cc-switch"></a>1. 安装 cc-switch</h3><p>cc-switch 是一个便捷的工具，可以快速切换 Claude Code 的 API 配置。</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># macOS / Linux</span>
-brew tap farion1231/ccswitch
-brew <span class="token function">install</span> <span class="token parameter variable">--cask</span> cc-switch<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<span class="token comment"># 验证安装</span>
+claude <span class="token parameter variable">--version</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h3 id="2-添加-MiniMax-配置"><a href="#2-添加-MiniMax-配置" class="headerlink" title="2. 添加 MiniMax 配置"></a>2. 添加 MiniMax 配置</h3><ol>
-<li>启动 cc-switch</li>
-<li>点击右上角 <strong>“+”</strong> ，选择预设的 MiniMax 供应商</li>
-<li>填写您的 MiniMax API Key</li>
+<h3 id="2-2-初始化配置"><a href="#2-2-初始化配置" class="headerlink" title="2.2 初始化配置"></a>2.2 初始化配置</h3><p>首次运行 <code>claude</code> 时，会引导你完成初始配置：</p>
+<ol>
+<li>选择工作目录</li>
+<li>授权文件访问权限</li>
+<li>完成 onboarding（可以跳过）</li>
 </ol>
-<h3 id="3-配置模型名称"><a href="#3-配置模型名称" class="headerlink" title="3. 配置模型名称"></a>3. 配置模型名称</h3><p>将模型名称全部改为 <code>MiniMax-M2.5</code>，完成后点击右下角的 <strong>“添加”</strong></p>
-<h3 id="4-启用配置"><a href="#4-启用配置" class="headerlink" title="4. 启用配置"></a>4. 启用配置</h3><p>回到首页，点击 <strong>“启用”</strong></p>
-<h3 id="5-编辑配置文件"><a href="#5-编辑配置文件" class="headerlink" title="5. 编辑配置文件"></a>5. 编辑配置文件</h3><p>编辑或新增 <code>.claude.json</code> 文件：</p>
-<ul>
-<li>MacOS &amp; Linux: <code>~/.claude.json</code></li>
-<li>Windows: <code>用户目录/.claude.json</code></li>
-</ul>
-<p>添加以下内容：</p>
+<h3 id="2-3-配置文件"><a href="#2-3-配置文件" class="headerlink" title="2.3 配置文件"></a>2.3 配置文件</h3><p>Claude Code 使用 <code>~/.claude.json</code> 配置文件，主要配置项包括：</p>
 <pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
-  <span class="token property">"hasCompletedOnboarding"</span><span class="token operator">:</span> <span class="token boolean">true</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+  <span class="token property">"hasCompletedOnboarding"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token property">"permissions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"allow"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"Bash(id)"</span><span class="token punctuation">,</span> <span class="token string">"Read"</span><span class="token punctuation">,</span> <span class="token string">"Edit"</span><span class="token punctuation">,</span> <span class="token string">"Write"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"deny"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"rm -rf /"</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<blockquote>
-<p><strong>重要提示</strong>：在配置前，请确保清除以下 Anthropic 相关的环境变量：</p>
+
+
+<h2 id="三、使用场景"><a href="#三、使用场景" class="headerlink" title="三、使用场景"></a>三、使用场景</h2><h3 id="3-1-代码编写与调试"><a href="#3-1-代码编写与调试" class="headerlink" title="3.1 代码编写与调试"></a>3.1 代码编写与调试</h3><pre class="line-numbers language-none"><code class="language-none"># 直接让 Claude 帮你写代码
+claude
+&gt; 帮我写一个快速排序算法
+&gt; 修复这个函数的 bug<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="3-2-代码分析与解释"><a href="#3-2-代码分析与解释" class="headerlink" title="3.2 代码分析与解释"></a>3.2 代码分析与解释</h3><pre class="line-numbers language-none"><code class="language-none"># 让 Claude 分析代码
+&gt; 解释这段代码的作用
+&gt; 找出这个函数的所有调用点<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="3-3-项目重构"><a href="#3-3-项目重构" class="headerlink" title="3.3 项目重构"></a>3.3 项目重构</h3><pre class="line-numbers language-none"><code class="language-none"># 重构代码
+&gt; 把这个类改成使用 TypeScript
+&gt; 优化这个函数的性能<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="3-4-学习新技术"><a href="#3-4-学习新技术" class="headerlink" title="3.4 学习新技术"></a>3.4 学习新技术</h3><pre class="line-numbers language-none"><code class="language-none"># 学习新框架/语言
+&gt; 教我如何使用 React Hooks
+&gt; 解释什么是闭包以及它的用途<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="3-5-自动化任务"><a href="#3-5-自动化任务" class="headerlink" title="3.5 自动化任务"></a>3.5 自动化任务</h3><pre class="line-numbers language-none"><code class="language-none"># 使用 Task 模式处理复杂任务
+/Task<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>Claude Code 可以帮你完成：</p>
 <ul>
-<li><code>ANTHROPIC_AUTH_TOKEN</code></li>
-<li><code>ANTHROPIC_BASE_URL</code></li>
+<li>批量重命名文件</li>
+<li>自动生成测试用例</li>
+<li>代码迁移和升级</li>
+<li>文档编写和整理</li>
 </ul>
-</blockquote>
-<h2 id="四、启动-Claude-Code"><a href="#四、启动-Claude-Code" class="headerlink" title="四、启动 Claude Code"></a>四、启动 Claude Code</h2><p>配置完成后，进入工作目录，在终端中运行 <code>claude</code> 命令以启动 Claude Code：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">claude<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="四、常用命令与快捷键"><a href="#四、常用命令与快捷键" class="headerlink" title="四、常用命令与快捷键"></a>四、常用命令与快捷键</h2><h3 id="4-1-Slash-Commands"><a href="#4-1-Slash-Commands" class="headerlink" title="4.1 Slash Commands"></a>4.1 Slash Commands</h3><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>/help</code></td>
+<td>查看帮助信息</td>
+</tr>
+<tr>
+<td><code>/Task</code></td>
+<td>创建新任务</td>
+</tr>
+<tr>
+<td><code>/Resume</code></td>
+<td>恢复之前的工作</td>
+</tr>
+<tr>
+<td><code>/Exit</code></td>
+<td>退出当前会话</td>
+</tr>
+</tbody></table>
+<h3 id="4-2-快捷键"><a href="#4-2-快捷键" class="headerlink" title="4.2 快捷键"></a>4.2 快捷键</h3><ul>
+<li><code>Ctrl + C</code>：中断当前操作</li>
+<li><code>Ctrl + D</code>：退出 Claude Code</li>
+<li><code>Tab</code>：自动补全命令</li>
+</ul>
+<h2 id="五、优质教程资源"><a href="#五、优质教程资源" class="headerlink" title="五、优质教程资源"></a>五、优质教程资源</h2><h3 id="5-1-官方文档"><a href="#5-1-官方文档" class="headerlink" title="5.1 官方文档"></a>5.1 官方文档</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code 官方文档</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.anthropic.com/en/docs/claude-code/setup">Claude Code Setup Guide</a></li>
+</ul>
+<h3 id="5-2-Claude-Code-使用技巧"><a href="#5-2-Claude-Code-使用技巧" class="headerlink" title="5.2 Claude Code 使用技巧"></a>5.2 Claude Code 使用技巧</h3><h4 id="技巧一：精确描述需求"><a href="#技巧一：精确描述需求" class="headerlink" title="技巧一：精确描述需求"></a>技巧一：精确描述需求</h4><p>越详细的描述，Claude Code 理解得越准确：</p>
+<pre class="line-numbers language-none"><code class="language-none">❌ 帮我优化这段代码
+✅ 帮我优化这个函数的性能，减少时间复杂度从 O(n²) 到 O(n)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<p>启动后，选择 “信任此文件夹 (Trust This Folder)”，以允许 Claude Code 访问该文件夹中的文件。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>通过以上步骤，国内用户也可以正常使用 Claude Code 进行 AI  Coding。</p>
-<p>MiniMax-M2.5 模型在代码理解和生成方面表现出色，是一个不错的替代方案。</p>
+<h4 id="技巧二：指定代码风格"><a href="#技巧二：指定代码风格" class="headerlink" title="技巧二：指定代码风格"></a>技巧二：指定代码风格</h4><pre class="line-numbers language-none"><code class="language-none">✅ 用 TypeScript 风格重写，添加类型注解
+✅ 遵循 Google JavaScript 风格指南<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h4 id="技巧三：分步执行复杂任务"><a href="#技巧三：分步执行复杂任务" class="headerlink" title="技巧三：分步执行复杂任务"></a>技巧三：分步执行复杂任务</h4><p>对于复杂任务，使用 Plan 模式先规划再执行：</p>
+<pre class="line-numbers language-none"><code class="language-none">让我先规划一下这个功能的实现步骤
+/Plan<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h4 id="技巧四：利用-Task-模式"><a href="#技巧四：利用-Task-模式" class="headerlink" title="技巧四：利用 Task 模式"></a>技巧四：利用 Task 模式</h4><p>对于耗时的后台任务，使用 Task 模式：</p>
+<pre class="line-numbers language-none"><code class="language-none">/Task
+帮我分析这个代码库，找出所有未使用的函数<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h3 id="5-3-进阶学习"><a href="#5-3-进阶学习" class="headerlink" title="5.3 进阶学习"></a>5.3 进阶学习</h3><ul>
+<li><strong>CLAUDE.md</strong>：在项目根目录创建 <code>CLAUDE.md</code> 文件，给 Claude Code 提供项目特定的指令</li>
+<li><strong>Hooks</strong>：配置 hooks 实现自动化工作流</li>
+<li><strong>MCP 服务器</strong>：集成外部服务扩展能力</li>
+</ul>
+<h2 id="六、实用-Tips"><a href="#六、实用-Tips" class="headerlink" title="六、实用 Tips"></a>六、实用 Tips</h2><h3 id="6-1-提高回答质量"><a href="#6-1-提高回答质量" class="headerlink" title="6.1 提高回答质量"></a>6.1 提高回答质量</h3><ol>
+<li><strong>提供上下文</strong>：告诉 Claude Code 你使用的技术栈、框架版本</li>
+<li><strong>给出示例</strong>：展示你期望的输出格式</li>
+<li><strong>说明限制</strong>：描述任何约束条件（如不能使用某库）</li>
+</ol>
+<h3 id="6-2-安全注意事项"><a href="#6-2-安全注意事项" class="headerlink" title="6.2 安全注意事项"></a>6.2 安全注意事项</h3><ol>
+<li><strong>敏感信息</strong>：不要在对话中直接提供 API Key、密码等敏感信息</li>
+<li><strong>文件权限</strong>：首次运行选择”信任此文件夹”时要谨慎</li>
+<li><strong>破坏性操作</strong>：执行删除等操作前仔细确认</li>
+</ol>
+<h3 id="6-3-提升效率"><a href="#6-3-提升效率" class="headerlink" title="6.3 提升效率"></a>6.3 提升效率</h3><ol>
+<li><strong>使用快捷命令</strong>：熟练掌握 slash commands</li>
+<li><strong>利用 Task 模式</strong>：后台任务不阻塞主对话</li>
+<li><strong>项目配置</strong>：通过 CLAUDE.md 提供项目上下文</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Claude Code 是一个强大的 AI 编程助手，它能够帮助开发者：</p>
+<ul>
+<li>提高编码效率</li>
+<li>更好地理解代码</li>
+<li>自动化重复性任务</li>
+<li>学习新技术</li>
+</ul>
+<p>掌握好基础配置和常用技巧，能够让你更好地利用这个工具提升开发效率。建议从简单的任务开始，逐步探索更多高级功能。</p>
+<hr>
+<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code 官方文档</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.anthropic.com/en/docs/claude-code/setup">Claude Code Setup</a></li>
+</ul>
 
                 
             </div>
@@ -1386,7 +1472,7 @@ brew <span class="token function">install</span> <span class="token parameter va
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://ricky2333.github.io/2026/02/16/ai-gong-fang-claude-code-bu-shu/">https://ricky2333.github.io/2026/02/16/ai-gong-fang-claude-code-bu-shu/</a>
+                    <a href="https://ricky2333.github.io/2026/04/25/ai-gong-fang-claude-code-zhi-bei/">https://ricky2333.github.io/2026/04/25/ai-gong-fang-claude-code-zhi-bei/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1428,16 +1514,12 @@ brew <span class="token function">install</span> <span class="token parameter va
                                     <span class="chip bg-color">人工智能</span>
                                 </a>
                             
-                                <a href="/tags/AI%E5%B7%A5%E5%85%B7/">
-                                    <span class="chip bg-color">AI工具</span>
-                                </a>
-                            
                                 <a href="/tags/AI-Coding/">
                                     <span class="chip bg-color">AI Coding</span>
                                 </a>
                             
-                                <a href="/tags/AI/">
-                                    <span class="chip bg-color">AI</span>
+                                <a href="/tags/Claude-Code/">
+                                    <span class="chip bg-color">Claude Code</span>
                                 </a>
                             
                         </div>
@@ -1611,30 +1693,30 @@ brew <span class="token function">install</span> <span class="token parameter va
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2026/02/16/ai-gong-fang-claude-code-zhi-bei/">
+                <a href="/2026/05/12/ai-gong-zuo-liu-cc-jie-guan-github/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/31.jpg" class="responsive-img" alt="AI工坊｜Claude Code 指北">
+                        <img src="/medias/featureimages/40.jpg" class="responsive-img" alt="AI重构了我的工作流｜Git">
                         
-                        <span class="card-title">AI工坊｜Claude Code 指北</span>
+                        <span class="card-title">AI重构了我的工作流｜Git</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Claude Code 基础配置、使用场景与教程推荐
+                            用自然语言驱动 Git 和 GitHub
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2026-02-16
+                            <i class="far fa-clock fa-fw icon-date"></i>2026-05-12
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/AI%E5%B7%A5%E5%9D%8A/" class="post-category">
-                                    AI工坊
+                            <a href="/categories/AI%E9%87%8D%E6%9E%84%E5%B7%A5%E4%BD%9C%E6%B5%81/" class="post-category">
+                                    AI重构工作流
                                 </a>
                             
                             
@@ -1656,6 +1738,10 @@ brew <span class="token function">install</span> <span class="token parameter va
                         <span class="chip bg-color">Claude Code</span>
                     </a>
                     
+                    <a href="/tags/Git/">
+                        <span class="chip bg-color">Git</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1667,24 +1753,23 @@ brew <span class="token function">install</span> <span class="token parameter va
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2026/02/14/ai-shou-ji-matt-shumer-zui-xin-bo-ke/">
+                <a href="/2026/04/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/">
                     <div class="card-image">
                         
+                        <img src="/medias/featureimages/35.jpg" class="responsive-img" alt="AI手记｜教非工科学长Vibe Coding学到的...">
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="AI手记｜Matt Shumer博客">
-                        
-                        <span class="card-title">AI手记｜Matt Shumer博客</span>
+                        <span class="card-title">AI手记｜教非工科学长Vibe Coding学到的...</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            解读博客《Something big is happening》
+                            我从教非工科学长Vibe Coding学到的三件事
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2026-02-14
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-04-08
                             </span>
                         <span class="publish-author">
                             
@@ -1709,8 +1794,8 @@ brew <span class="token function">install</span> <span class="token parameter va
                         <span class="chip bg-color">AI</span>
                     </a>
                     
-                    <a href="/tags/AI%E6%89%8B%E8%AE%B0/">
-                        <span class="chip bg-color">AI手记</span>
+                    <a href="/tags/Vibe-Coding/">
+                        <span class="chip bg-color">Vibe Coding</span>
                     </a>
                     
                 </div>
@@ -1960,7 +2045,7 @@ brew <span class="token function">install</span> <span class="token parameter va
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">316k</span>&nbsp;字
+                class="white-color">319.9k</span>&nbsp;字
             
             
             

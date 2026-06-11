@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="AI工坊｜Claude Code 指北, Rickyの水果摊">
+    <meta name="keywords" content="AI手记｜国内外AI巨头调研, Rickyの水果摊">
     <meta name="description" content="Rickyの个人博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>AI工坊｜Claude Code 指北 | Rickyの水果摊</title>
+    <title>AI手记｜国内外AI巨头调研 | Rickyの水果摊</title>
     <link rel="icon" type="image/png" href="https://ricky-typora-notes.oss-cn-hangzhou.aliyuncs.com/avatar_circle_mini.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -1097,12 +1097,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/31.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/38.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">AI工坊｜Claude Code 指北</h1>
+                    <h1 class="description center-align post-title">AI手记｜国内外AI巨头调研</h1>
                 </div>
             </div>
         </div>
@@ -1227,12 +1227,12 @@
                                 <span class="chip bg-color">人工智能</span>
                             </a>
                         
-                            <a href="/tags/AI-Coding/">
-                                <span class="chip bg-color">AI Coding</span>
+                            <a href="/tags/AI%E6%89%8B%E8%AE%B0/">
+                                <span class="chip bg-color">AI手记</span>
                             </a>
                         
-                            <a href="/tags/Claude-Code/">
-                                <span class="chip bg-color">Claude Code</span>
+                            <a href="/tags/AI%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F/">
+                                <span class="chip bg-color">AI行业观察</span>
                             </a>
                         
                     </div>
@@ -1243,8 +1243,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/AI%E5%B7%A5%E5%9D%8A/" class="post-category">
-                                AI工坊
+                            <a href="/categories/AI%E6%89%8B%E8%AE%B0/" class="post-category">
+                                AI手记
                             </a>
                         
                     </div>
@@ -1256,7 +1256,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2026-02-16
+                    2026-06-03
                 </div>
                 
 
@@ -1265,14 +1265,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.2k
+                    4.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    16 分
                 </div>
                 
 
@@ -1295,157 +1295,636 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Claude Code 是 <a target="_blank" rel="noopener" href="https://www.anthropic.com/">Anthropic</a> 公司推出的 AI 编程助手，它不仅是一个简单的代码补全工具，而是一个能够真正”动手”完成任务的 AI 助手。</p>
-<p>本文将介绍 Claude Code 的基础配置、使用场景以及优质教程资源，帮助你快速上手这个强大的 AI 编程工具。</p>
-<h2 id="一、Claude-Code-核心特性"><a href="#一、Claude-Code-核心特性" class="headerlink" title="一、Claude Code 核心特性"></a>一、Claude Code 核心特性</h2><h3 id="1-1-强大的工具调用能力"><a href="#1-1-强大的工具调用能力" class="headerlink" title="1.1 强大的工具调用能力"></a>1.1 强大的工具调用能力</h3><p>Claude Code 提供了丰富的工具，可以直接执行各种操作：</p>
+                <p>大家好，我是 Ricky X。</p>
+<p>随着AI大模型、相关应用越来越多，不知道你有没有遇到过这种情况：</p>
 <ul>
-<li><strong>文件操作</strong>：读取、编辑、创建、搜索文件</li>
-<li><strong>Bash 命令</strong>：执行终端命令、运行脚本</li>
-<li><strong>代码理解</strong>：分析代码库、搜索函数定义</li>
-<li><strong>任务编排</strong>：创建和管理多步骤任务</li>
+<li>知道 ChatGPT，但搞不清 GPT-5.5 和 Codex 是什么关系？</li>
+<li>听说 Claude Code 很强，但不确定它和 Claude Opus、Anthropic 之间怎么对应？</li>
+<li>经常看到 Qwen、混元、GLM、豆包这些名字，但一时搞不懂哪些是公司、哪些是模型、哪些是产品？</li>
 </ul>
-<h3 id="1-2-多种交互模式"><a href="#1-2-多种交互模式" class="headerlink" title="1.2 多种交互模式"></a>1.2 多种交互模式</h3><ul>
-<li><strong>对话模式</strong>：直接对话，获取解答和建议</li>
-<li><strong>Task 模式</strong>：创建后台任务，让 AI 异步处理</li>
-<li><strong>Plan 模式</strong>：规划复杂任务的实现步骤</li>
-<li><strong>ExitPlanMode</strong>：完成规划后进入执行模式</li>
-</ul>
-<h3 id="1-3-智能的代码处理"><a href="#1-3-智能的代码处理" class="headerlink" title="1.3 智能的代码处理"></a>1.3 智能的代码处理</h3><ul>
-<li>自动理解项目结构和代码上下文</li>
-<li>支持多文件同时编辑</li>
-<li>尊重现有代码风格和项目规范</li>
-</ul>
-<h2 id="二、基础配置"><a href="#二、基础配置" class="headerlink" title="二、基础配置"></a>二、基础配置</h2><h3 id="2-1-安装"><a href="#2-1-安装" class="headerlink" title="2.1 安装"></a>2.1 安装</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 使用 npm 全局安装</span>
-<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> @anthropic-ai/claude-code
-
-<span class="token comment"># 验证安装</span>
-claude <span class="token parameter variable">--version</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="2-2-初始化配置"><a href="#2-2-初始化配置" class="headerlink" title="2.2 初始化配置"></a>2.2 初始化配置</h3><p>首次运行 <code>claude</code> 时，会引导你完成初始配置：</p>
-<ol>
-<li>选择工作目录</li>
-<li>授权文件访问权限</li>
-<li>完成 onboarding（可以跳过）</li>
-</ol>
-<h3 id="2-3-配置文件"><a href="#2-3-配置文件" class="headerlink" title="2.3 配置文件"></a>2.3 配置文件</h3><p>Claude Code 使用 <code>~/.claude.json</code> 配置文件，主要配置项包括：</p>
-<pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token punctuation">{</span>
-  <span class="token property">"hasCompletedOnboarding"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-  <span class="token property">"permissions"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-    <span class="token property">"allow"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"Bash(id)"</span><span class="token punctuation">,</span> <span class="token string">"Read"</span><span class="token punctuation">,</span> <span class="token string">"Edit"</span><span class="token punctuation">,</span> <span class="token string">"Write"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-    <span class="token property">"deny"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"rm -rf /"</span><span class="token punctuation">]</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h2 id="三、使用场景"><a href="#三、使用场景" class="headerlink" title="三、使用场景"></a>三、使用场景</h2><h3 id="3-1-代码编写与调试"><a href="#3-1-代码编写与调试" class="headerlink" title="3.1 代码编写与调试"></a>3.1 代码编写与调试</h3><pre class="line-numbers language-none"><code class="language-none"># 直接让 Claude 帮你写代码
-claude
-&gt; 帮我写一个快速排序算法
-&gt; 修复这个函数的 bug<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="3-2-代码分析与解释"><a href="#3-2-代码分析与解释" class="headerlink" title="3.2 代码分析与解释"></a>3.2 代码分析与解释</h3><pre class="line-numbers language-none"><code class="language-none"># 让 Claude 分析代码
-&gt; 解释这段代码的作用
-&gt; 找出这个函数的所有调用点<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="3-3-项目重构"><a href="#3-3-项目重构" class="headerlink" title="3.3 项目重构"></a>3.3 项目重构</h3><pre class="line-numbers language-none"><code class="language-none"># 重构代码
-&gt; 把这个类改成使用 TypeScript
-&gt; 优化这个函数的性能<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="3-4-学习新技术"><a href="#3-4-学习新技术" class="headerlink" title="3.4 学习新技术"></a>3.4 学习新技术</h3><pre class="line-numbers language-none"><code class="language-none"># 学习新框架/语言
-&gt; 教我如何使用 React Hooks
-&gt; 解释什么是闭包以及它的用途<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="3-5-自动化任务"><a href="#3-5-自动化任务" class="headerlink" title="3.5 自动化任务"></a>3.5 自动化任务</h3><pre class="line-numbers language-none"><code class="language-none"># 使用 Task 模式处理复杂任务
-/Task<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p>Claude Code 可以帮你完成：</p>
+<p>这不是你的问题。</p>
+<p>AI 行业更新太快，产品名、模型名、公司名又经常混在一起。单独看每一个名字都不难理解，但放到一张图里，就很容易乱。</p>
+<p>所以在这篇文章里，我尝试做一次系统整理。</p>
+<p>我会把国内外几家主要 AI 公司放在同一个框架下，逐一梳理它们的公司主体、关键负责人、旗舰模型、代表产品，以及值得一看的访谈和播客。</p>
+<p>希望它能成为你读懂 AI 行业信息的第一张地图。</p>
+<blockquote>
+<p>本文信息截至 <strong>2026 年 5 月</strong>。AI 行业变化很快，尤其是“旗舰模型”、“最新产品”这类信息，可能几周后就会变化。文中模型和产品信息尽量使用官方页面、模型文档、产品发布作为来源；访谈部分则优先放人物采访、播客和视频。</p>
+</blockquote>
+<hr>
+<h2 id="阅读建议"><a href="#阅读建议" class="headerlink" title="阅读建议"></a>阅读建议</h2><p>为了方便横向比较，我会尽量用同一套结构来介绍每家公司。</p>
+<p>你可以重点看四件事：</p>
 <ul>
-<li>批量重命名文件</li>
-<li>自动生成测试用例</li>
-<li>代码迁移和升级</li>
-<li>文档编写和整理</li>
+<li><strong>公司主体</strong>：先分清这家公司是谁，避免把公司名、模型名和产品名混在一起。</li>
+<li><strong>关键负责人</strong>：看哪些人公开代表这家公司或这条产品线发声。</li>
+<li><strong>模型与产品</strong>：看当前主力模型是什么，发布时间是什么，以及它落到了哪些用户产品或开发者工具里。</li>
+<li><strong>访谈 / 播客</strong>：如果想继续了解这家公司，就从这些长访谈、播客和演讲开始。</li>
 </ul>
-<h2 id="四、常用命令与快捷键"><a href="#四、常用命令与快捷键" class="headerlink" title="四、常用命令与快捷键"></a>四、常用命令与快捷键</h2><h3 id="4-1-Slash-Commands"><a href="#4-1-Slash-Commands" class="headerlink" title="4.1 Slash Commands"></a>4.1 Slash Commands</h3><table>
+<p>这篇文章不会穷尽所有 AI 公司，而是选取了我最近在产品体验、模型发布、访谈材料和开发者讨论中频繁遇到的几家AI公司。</p>
+<hr>
+<h2 id="国际公司"><a href="#国际公司" class="headerlink" title="国际公司"></a>国际公司</h2><h3 id="1-OpenAI"><a href="#1-OpenAI" class="headerlink" title="1. OpenAI"></a>1. OpenAI</h3><p><strong>公司概况</strong></p>
+<p>OpenAI 是一家以通用人工智能研究和产品化为核心的 AI 公司。在 AI 方向，它主要通过 GPT 系列模型、ChatGPT、Codex和图像生成展开。</p>
+<p>OpenAI 是公司主体，GPT 是模型线，ChatGPT 和 Codex 是主要产品入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>Sam Altman</strong>：OpenAI CEO。</li>
+<li><strong>Alexander Embiricos</strong>：OpenAI Codex 产品团队相关负责人之一。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
 <thead>
 <tr>
-<th>命令</th>
-<th>功能</th>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
 </tr>
 </thead>
 <tbody><tr>
-<td><code>/help</code></td>
-<td>查看帮助信息</td>
+<td>旗舰模型</td>
+<td><a target="_blank" rel="noopener" href="https://developers.openai.com/api/docs/models">GPT-5.5</a></td>
+<td>2026 年 4 月</td>
+<td>OpenAI 当前面向复杂推理、Coding、Agentic work 和知识工作的主力模型之一。</td>
 </tr>
 <tr>
-<td><code>/Task</code></td>
-<td>创建新任务</td>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://chatgpt.com/">ChatGPT</a></td>
+<td>2022 年 11 月</td>
+<td>OpenAI 的消费级 AI 助手入口，承载聊天、文件、语音、搜索、图像等能力。</td>
 </tr>
 <tr>
-<td><code>/Resume</code></td>
-<td>恢复之前的工作</td>
+<td>AI Coding 工具</td>
+<td><a target="_blank" rel="noopener" href="https://openai.com/codex/">Codex</a></td>
+<td>2025 年 5 月</td>
+<td>面向软件工程任务的 AI Coding / Agent 产品，可处理代码修改、问题定位、测试和代码审查等任务。</td>
 </tr>
 <tr>
-<td><code>/Exit</code></td>
-<td>退出当前会话</td>
+<td>图像生成</td>
+<td><a target="_blank" rel="noopener" href="https://openai.com/index/introducing-chatgpt-images-2-0/">ChatGPT Images 2.0</a></td>
+<td>2026 年 4 月</td>
+<td>OpenAI 的图像生成能力，进入 ChatGPT 和 API 图像模型线。</td>
 </tr>
 </tbody></table>
-<h3 id="4-2-快捷键"><a href="#4-2-快捷键" class="headerlink" title="4.2 快捷键"></a>4.2 快捷键</h3><ul>
-<li><code>Ctrl + C</code>：中断当前操作</li>
-<li><code>Ctrl + D</code>：退出 Claude Code</li>
-<li><code>Tab</code>：自动补全命令</li>
-</ul>
-<h2 id="五、优质教程资源"><a href="#五、优质教程资源" class="headerlink" title="五、优质教程资源"></a>五、优质教程资源</h2><h3 id="5-1-官方文档"><a href="#5-1-官方文档" class="headerlink" title="5.1 官方文档"></a>5.1 官方文档</h3><ul>
-<li><a target="_blank" rel="noopener" href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code 官方文档</a></li>
-<li><a target="_blank" rel="noopener" href="https://docs.anthropic.com/en/docs/claude-code/setup">Claude Code Setup Guide</a></li>
-</ul>
-<h3 id="5-2-Claude-Code-使用技巧"><a href="#5-2-Claude-Code-使用技巧" class="headerlink" title="5.2 Claude Code 使用技巧"></a>5.2 Claude Code 使用技巧</h3><h4 id="技巧一：精确描述需求"><a href="#技巧一：精确描述需求" class="headerlink" title="技巧一：精确描述需求"></a>技巧一：精确描述需求</h4><p>越详细的描述，Claude Code 理解得越准确：</p>
-<pre class="line-numbers language-none"><code class="language-none">❌ 帮我优化这段代码
-✅ 帮我优化这个函数的性能，减少时间复杂度从 O(n²) 到 O(n)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<h4 id="技巧二：指定代码风格"><a href="#技巧二：指定代码风格" class="headerlink" title="技巧二：指定代码风格"></a>技巧二：指定代码风格</h4><pre class="line-numbers language-none"><code class="language-none">✅ 用 TypeScript 风格重写，添加类型注解
-✅ 遵循 Google JavaScript 风格指南<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<h4 id="技巧三：分步执行复杂任务"><a href="#技巧三：分步执行复杂任务" class="headerlink" title="技巧三：分步执行复杂任务"></a>技巧三：分步执行复杂任务</h4><p>对于复杂任务，使用 Plan 模式先规划再执行：</p>
-<pre class="line-numbers language-none"><code class="language-none">让我先规划一下这个功能的实现步骤
-/Plan<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<h4 id="技巧四：利用-Task-模式"><a href="#技巧四：利用-Task-模式" class="headerlink" title="技巧四：利用 Task 模式"></a>技巧四：利用 Task 模式</h4><p>对于耗时的后台任务，使用 Task 模式：</p>
-<pre class="line-numbers language-none"><code class="language-none">/Task
-帮我分析这个代码库，找出所有未使用的函数<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<h3 id="5-3-进阶学习"><a href="#5-3-进阶学习" class="headerlink" title="5.3 进阶学习"></a>5.3 进阶学习</h3><ul>
-<li><strong>CLAUDE.md</strong>：在项目根目录创建 <code>CLAUDE.md</code> 文件，给 Claude Code 提供项目特定的指令</li>
-<li><strong>Hooks</strong>：配置 hooks 实现自动化工作流</li>
-<li><strong>MCP 服务器</strong>：集成外部服务扩展能力</li>
-</ul>
-<h2 id="六、实用-Tips"><a href="#六、实用-Tips" class="headerlink" title="六、实用 Tips"></a>六、实用 Tips</h2><h3 id="6-1-提高回答质量"><a href="#6-1-提高回答质量" class="headerlink" title="6.1 提高回答质量"></a>6.1 提高回答质量</h3><ol>
-<li><strong>提供上下文</strong>：告诉 Claude Code 你使用的技术栈、框架版本</li>
-<li><strong>给出示例</strong>：展示你期望的输出格式</li>
-<li><strong>说明限制</strong>：描述任何约束条件（如不能使用某库）</li>
-</ol>
-<h3 id="6-2-安全注意事项"><a href="#6-2-安全注意事项" class="headerlink" title="6.2 安全注意事项"></a>6.2 安全注意事项</h3><ol>
-<li><strong>敏感信息</strong>：不要在对话中直接提供 API Key、密码等敏感信息</li>
-<li><strong>文件权限</strong>：首次运行选择”信任此文件夹”时要谨慎</li>
-<li><strong>破坏性操作</strong>：执行删除等操作前仔细确认</li>
-</ol>
-<h3 id="6-3-提升效率"><a href="#6-3-提升效率" class="headerlink" title="6.3 提升效率"></a>6.3 提升效率</h3><ol>
-<li><strong>使用快捷命令</strong>：熟练掌握 slash commands</li>
-<li><strong>利用 Task 模式</strong>：后台任务不阻塞主对话</li>
-<li><strong>项目配置</strong>：通过 CLAUDE.md 提供项目上下文</li>
-</ol>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Claude Code 是一个强大的 AI 编程助手，它能够帮助开发者：</p>
+<p><strong>访谈 / 播客</strong></p>
 <ul>
-<li>提高编码效率</li>
-<li>更好地理解代码</li>
-<li>自动化重复性任务</li>
-<li>学习新技术</li>
+<li><a target="_blank" rel="noopener" href="https://lexfridman.com/sam-altman-2/">Lex Fridman Podcast #419：Sam Altman</a></li>
+<li><a target="_blank" rel="noopener" href="https://a16z.com/podcast/how-openai-built-its-coding-agent/">a16z：How OpenAI Built Its Coding Agent</a></li>
 </ul>
-<p>掌握好基础配置和常用技巧，能够让你更好地利用这个工具提升开发效率。建议从简单的任务开始，逐步探索更多高级功能。</p>
 <hr>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://docs.anthropic.com/en/docs/claude-code/overview">Claude Code 官方文档</a></li>
-<li><a target="_blank" rel="noopener" href="https://docs.anthropic.com/en/docs/claude-code/setup">Claude Code Setup</a></li>
+<h3 id="2-Anthropic"><a href="#2-Anthropic" class="headerlink" title="2. Anthropic"></a>2. Anthropic</h3><p><strong>公司概况</strong></p>
+<p>Anthropic 是一家以 Claude 系列模型为核心的 AI 公司，由一批前 OpenAI 成员创立。在 AI 方向，它主要通过 Claude 模型、Claude 产品和 Claude Code 展开。</p>
+<p>Anthropic 是公司主体，Claude 是模型线（包括Claude Opus系列、Claude Sonnet系列等），Claude App是用户入口，Claude Code 是 AI Coding 产品。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>Dario Amodei</strong>：Anthropic 联合创始人兼 CEO。</li>
+<li><strong>Daniela Amodei</strong>：Anthropic 联合创始人兼 President。</li>
 </ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰模型</td>
+<td><a target="_blank" rel="noopener" href="https://www.anthropic.com/claude/opus">Claude Opus 4.7</a></td>
+<td>2026 年 4 月</td>
+<td>Anthropic 当前面向复杂任务的主力模型之一，官方重点提到 coding、agents、vision 和复杂多步任务。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://claude.ai/">Claude</a></td>
+<td>2023 年 3 月</td>
+<td>Anthropic 面向普通用户和企业用户的 AI 助手。</td>
+</tr>
+<tr>
+<td>AI Coding 工具</td>
+<td><a target="_blank" rel="noopener" href="https://www.anthropic.com/product/claude-code">Claude Code</a></td>
+<td>2025 年 5 月</td>
+<td>面向开发者的 AI Coding 工具，可以在终端和开发流程中读代码、改文件、运行命令和处理工程任务。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://lexfridman.com/dario-amodei-transcript/">Lex Fridman Podcast #452：Dario Amodei</a></li>
+</ul>
+<hr>
+<h3 id="3-Google-DeepMind"><a href="#3-Google-DeepMind" class="headerlink" title="3. Google DeepMind"></a>3. Google DeepMind</h3><p><strong>公司概况</strong></p>
+<p>Google DeepMind 是 Google 旗下的 AI 研究与产品团队，由原 DeepMind 和 Google Brain 整合而来。在 AI 方向，它主要负责 Gemini 系列模型，并通过 Gemini、NotebookLM、Google AI Studio、Gemini CLI、Nano Banana Pro 等产品进入用户和开发者场景。</p>
+<p>对普通用户来说，可以把 Google DeepMind 理解为公司和研究主体，Gemini 是模型线，Gemini App、NotebookLM 和 Google AI Studio 是主要产品入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>Demis Hassabis</strong>：Google DeepMind CEO，DeepMind 联合创始人。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰模型</td>
+<td><a target="_blank" rel="noopener" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/">Gemini 3.1 Pro</a></td>
+<td>2026 年 2 月</td>
+<td>Google 当前面向复杂任务的主力 Gemini 模型。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://gemini.google.com/">Gemini</a></td>
+<td>2023 年 12 月</td>
+<td>Google 面向普通用户的 AI 助手入口，也连接搜索、Workspace、Android 等生态。</td>
+</tr>
+<tr>
+<td>知识工具</td>
+<td><a target="_blank" rel="noopener" href="https://notebooklm.google.com/">NotebookLM</a></td>
+<td>2023 年 7 月</td>
+<td>Google 面向资料阅读、笔记整理、研究和内容生成的 AI-first notebook。</td>
+</tr>
+<tr>
+<td>AI Coding 工具</td>
+<td><a target="_blank" rel="noopener" href="https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent">Gemini CLI</a></td>
+<td>2025 年 6 月</td>
+<td>Google 开源的终端 AI Agent，可把 Gemini 能力接入命令行和开发流程。</td>
+</tr>
+<tr>
+<td>图像生成</td>
+<td><a target="_blank" rel="noopener" href="https://blog.google/technology/ai/nano-banana-pro/">Nano Banana Pro</a></td>
+<td>2025 年 11 月</td>
+<td>基于 Gemini 3 Pro 的图像生成与编辑模型，面向高精度视觉设计、信息图和文本渲染。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://lexfridman.com/demis-hassabis-2-transcript/">Lex Fridman Podcast #475：Demis Hassabis</a></li>
+</ul>
+<hr>
+<h3 id="4-xAI"><a href="#4-xAI" class="headerlink" title="4. xAI"></a>4. xAI</h3><p><strong>公司概况</strong></p>
+<p>xAI 是 Elon Musk 创立的 AI 公司。在 AI 方向，它主要通过 Grok 系列模型、Grok 用户产品和 xAI API 展开。</p>
+<p>对普通用户来说，可以把 xAI 理解为公司主体，Grok 是模型线和用户入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>Elon Musk</strong>：xAI 创始人。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰 / 主力模型</td>
+<td><a target="_blank" rel="noopener" href="https://docs.x.ai/developers/models">Grok 4.3</a></td>
+<td>2026 年 5 月</td>
+<td>xAI 当前推荐的通用模型，支持 1M 上下文、函数调用、结构化输出和可配置推理。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://grok.com/">Grok</a></td>
+<td>2023 年 11 月</td>
+<td>xAI 面向普通用户的 AI 助手，与 X 平台和实时信息检索联系较深。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://lexfridman.com/elon-musk-and-neuralink-team-transcript/">Lex Fridman Podcast #438：Elon Musk</a></li>
+</ul>
+<hr>
+<h2 id="国内公司"><a href="#国内公司" class="headerlink" title="国内公司"></a>国内公司</h2><h3 id="1-DeepSeek"><a href="#1-DeepSeek" class="headerlink" title="1. DeepSeek"></a>1. DeepSeek</h3><p><strong>公司概况</strong></p>
+<p>DeepSeek 是一家国内 AI 公司，主要面向基础模型、推理模型和开发者 API。在 AI 方向，它通过 DeepSeek-V 系列、DeepSeek-R 系列、DeepSeek Chat 和 API 服务展开。</p>
+<p>对普通用户来说，可以把 DeepSeek 理解为公司主体，DeepSeek-V 是通用模型线，DeepSeek-R 是推理模型线，DeepSeek Chat 是用户入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>梁文锋</strong>：DeepSeek 创始人，同时也是幻方量化的联合创始人。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰模型</td>
+<td><a target="_blank" rel="noopener" href="https://api-docs.deepseek.com/news/news260424">DeepSeek-V4-Pro / V4-Flash</a></td>
+<td>2026 年 4 月</td>
+<td>DeepSeek V4 Preview 包括 V4-Pro 和 V4-Flash，两者都支持 1M 上下文，并面向 Agent 与长上下文任务。</td>
+</tr>
+<tr>
+<td>推理模型</td>
+<td><a target="_blank" rel="noopener" href="https://api-docs.deepseek.com/news/news250120">DeepSeek-R1</a></td>
+<td>2025 年 1 月</td>
+<td>DeepSeek 的代表性推理模型之一，模型和技术报告开源。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://chat.deepseek.com/">DeepSeek Chat</a></td>
+<td>2025 年 1 月</td>
+<td>面向普通用户的聊天入口，也可体验 DeepSeek 的主力模型能力。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://finance.sina.com.cn/money/fund/jjzl/2024-07-18/doc-incephkf2221511.shtml">36Kr / 暗涌：梁文锋访谈转载</a></li>
+</ul>
+<hr>
+<h3 id="2-阿里巴巴"><a href="#2-阿里巴巴" class="headerlink" title="2. 阿里巴巴"></a>2. 阿里巴巴</h3><p><strong>公司概况</strong></p>
+<p>阿里巴巴是国内主要互联网和云计算公司之一。在 AI 方向，它主要通过 Qwen / 通义千问模型线、Qwen Chat 和阿里云百炼展开。</p>
+<p>对普通用户来说，可以把阿里巴巴理解为公司主体，Qwen 是模型线，通义千问 / Qwen Chat 是用户入口，阿里云百炼是开发者和企业服务入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>林俊旸</strong>：前 Qwen / 通义千问系列大模型技术负责人，曾主导 Qwen 系列模型研发和开源工作，并于 2026 年 3 月宣布卸任。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰 / 主力模型</td>
+<td><a target="_blank" rel="noopener" href="https://qwen.ai/blog?id=qwen3.5">Qwen3.5</a></td>
+<td>2026 年 2 月</td>
+<td>Qwen 当前重点发布的模型系列之一，首个开源模型为 Qwen3.5-397B-A17B。</td>
+</tr>
+<tr>
+<td>模型系列</td>
+<td><a target="_blank" rel="noopener" href="https://huggingface.co/Qwen">Qwen</a></td>
+<td>2023 年 8 月</td>
+<td>阿里巴巴的开源模型家族，覆盖 LLM、多模态、语音、图像、代码等方向。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://chat.qwen.ai/">Qwen Chat / 通义千问</a></td>
+<td>2023 年 4 月</td>
+<td>面向普通用户的 AI 助手入口。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1R1rHBxE2V/">B 站：千问负责人林俊旸采访视频</a></li>
+</ul>
+<hr>
+<h3 id="3-腾讯"><a href="#3-腾讯" class="headerlink" title="3. 腾讯"></a>3. 腾讯</h3><p><strong>公司概况</strong></p>
+<p>腾讯是国内主要互联网平台公司之一。在 AI 方向，它主要通过混元模型线、腾讯元宝和腾讯云相关服务展开，并接入 QQ、腾讯文档、CodeBuddy 等产品。</p>
+<p>对普通用户来说，可以把腾讯理解为公司主体，混元是模型线，腾讯元宝是用户入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>姚顺雨</strong>：腾讯首席 AI 科学家，Hy3 preview 官方发布中代表混元模型研发方向发言。</li>
+<li><strong>刘煜宏</strong>：腾讯云副总裁、腾讯混元大模型负责人，曾在腾讯元宝发布时接受媒体群</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰 / 主力模型</td>
+<td><a target="_blank" rel="noopener" href="https://www.tencent.com/zh-cn/articles/2202320.html">Hy3 preview</a></td>
+<td>2026 年 4 月</td>
+<td>腾讯发布并开源的混元 Hy 系列语言模型，295B 总参数、21B 激活参数，最大支持 256K 上下文，面向推理、代码和 Agent 任务。</td>
+</tr>
+<tr>
+<td>模型系列</td>
+<td><a target="_blank" rel="noopener" href="https://www.tencent.com/en-us/articles/2201685.html">腾讯混元</a></td>
+<td>2023 年 9 月</td>
+<td>腾讯自研基础模型品牌，已接入腾讯云和多项腾讯内部产品。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://yuanbao.tencent.com/">腾讯元宝</a></td>
+<td>2024 年 5 月</td>
+<td>腾讯基于混元大模型推出的 C 端 AI 助手，覆盖 AI 搜索、总结、写作和多种智能体玩法。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1WDzkBdEaT/">B 站：腾讯首席 AI 科学家姚顺雨第一次公开亮相，谈了哪些？</a></li>
+<li><a target="_blank" rel="noopener" href="https://finance.sina.com.cn/jjxw/2024-05-30/doc-inawzicw4585307.shtml">每日经济新闻：腾讯元宝负责人刘煜宏媒体群访</a></li>
+</ul>
+<hr>
+<h3 id="4-小米"><a href="#4-小米" class="headerlink" title="4. 小米"></a>4. 小米</h3><p><strong>公司概况</strong></p>
+<p>小米是中国消费电子、汽车和智能硬件公司。在 AI 方向，它主要通过 Xiaomi MiMo 模型线、小爱同学、HyperOS 和小米汽车等入口展开。</p>
+<p>对普通用户来说，可以把小米理解为公司主体，MiMo 是模型线，小爱同学、HyperOS 和汽车座舱是潜在产品入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>罗福莉</strong>：小米 MiMo 大模型负责人。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰 / 主力模型</td>
+<td><a target="_blank" rel="noopener" href="https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro">MiMo-V2.5-Pro</a></td>
+<td>2026 年 4 月</td>
+<td>面向复杂 Agent、软件工程和长程任务的 MoE 模型，模型卡列出 1.02T 总参数、42B 激活参数和 1M 上下文。</td>
+</tr>
+<tr>
+<td>全模态模型</td>
+<td><a target="_blank" rel="noopener" href="https://huggingface.co/XiaomiMiMo/MiMo-V2.5">MiMo-V2.5</a></td>
+<td>2026 年 4 月</td>
+<td>偏向原生全模态能力，支持文本、图像、视频、音频理解。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.nbd.com.cn/articles/2026-03-27/4312273.html">每日经济新闻：罗福莉谈“进化”</a></li>
+<li><a target="_blank" rel="noopener" href="https://leolabs.me/blog/luofuli-agent-3to1to1/">罗福莉 3.5 小时访谈整理</a></li>
+</ul>
+<hr>
+<h3 id="5-智谱-AI"><a href="#5-智谱-AI" class="headerlink" title="5. 智谱 AI"></a>5. 智谱 AI</h3><p><strong>公司概况</strong></p>
+<p>智谱 AI 是中国大模型创业公司之一，技术源头与清华大学有较深关联。在 AI 方向，它主要通过 GLM 模型线、智谱清言、AutoGLM 和开放平台展开。</p>
+<p>对普通用户来说，可以把智谱 AI 理解为公司主体，GLM 是模型线，智谱清言是用户入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>张鹏</strong>：智谱 AI CEO。</li>
+<li><strong>唐杰</strong>：清华大学教授，智谱技术路线的重要学术源头之一。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰 / 主力模型</td>
+<td><a target="_blank" rel="noopener" href="https://docs.bigmodel.cn/cn/guide/models/text/glm-5.1">GLM-5.1</a></td>
+<td>2026 年 4 月</td>
+<td>智谱当前旗舰模型之一，官方文档强调代码能力、长程任务和最多 8 小时级持续工作能力。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://chatglm.cn/">智谱清言</a></td>
+<td>2023 年 8 月</td>
+<td>智谱面向普通用户的 AI 助手产品。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1awiDBDEWS/">B 站：全球大模型第一股的上市访谈，和智谱 CEO 张鹏聊：敢问路在何方？</a></li>
+<li><a target="_blank" rel="noopener" href="https://podwise.ai/dashboard/episodes/7426389">厚雪长波：对话智谱 CEO 张鹏</a></li>
+</ul>
+<hr>
+<h3 id="6-月之暗面"><a href="#6-月之暗面" class="headerlink" title="6. 月之暗面"></a>6. 月之暗面</h3><p><strong>公司概况</strong></p>
+<p>月之暗面是中国大模型创业公司，成立于 2023 年。在 AI 方向，它主要通过 Kimi 模型线、Kimi 用户产品和 Kimi Code 展开，并覆盖长文本、Agent、文档、网页、表格、幻灯片和深度研究等场景。</p>
+<p>对普通用户来说，可以把月之暗面理解为公司主体，Kimi 是模型线和用户入口，Kimi Code 是面向开发者的 AI Coding 产品。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>杨植麟</strong>：月之暗面联合创始人兼 CEO。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰 / 主力模型</td>
+<td><a target="_blank" rel="noopener" href="https://www.kimi.com/blog/kimi-k2-6">Kimi K2.6</a></td>
+<td>2026 年 4 月</td>
+<td>月之暗面当前重点发布的开源模型，官方强调 coding、long-horizon execution 和 Agent Swarm 能力。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://www.kimi.com/">Kimi</a></td>
+<td>2023 年 10 月</td>
+<td>面向普通用户的聊天和生产力入口，覆盖文档、网页、表格、幻灯片、深度研究等任务。</td>
+</tr>
+<tr>
+<td>AI Coding 工具</td>
+<td><a target="_blank" rel="noopener" href="https://www.kimi.com/blog/kimi-k2-6">Kimi Code</a></td>
+<td>2026 年 4 月</td>
+<td>面向终端和 IDE 的 AI Code Agent，Kimi K2.6 发布页中已明确列出。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1hFe1zSEXp/">B 站：对话 Kimi 创始人杨植麟：K2、Agentic LLM、缸中之脑、艰难的泛化</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1NxrHBgE6c/">B 站：AGI Next 前沿峰会｜月之暗面 Kimi 创始人杨植麟：Scaling Law、模型架构与 Agent 智能</a></li>
+</ul>
+<hr>
+<h3 id="7-MiniMax"><a href="#7-MiniMax" class="headerlink" title="7. MiniMax"></a>7. MiniMax</h3><p><strong>公司概况</strong></p>
+<p>MiniMax 是中国大模型创业公司之一。在 AI 方向，它主要通过 MiniMax 模型线、MiniMax Agent、海螺 AI、Talkie 和开发者 API 展开，覆盖文本、语音、视频、音乐和角色聊天等场景。</p>
+<p>对普通用户来说，可以把 MiniMax 理解为公司主体，MiniMax M 系列是模型线，海螺 AI 和 Talkie 是更容易接触到的产品入口。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>闫俊杰</strong>：MiniMax 创始人、董事长、CEO 兼 CTO。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰 / 主力模型</td>
+<td><a target="_blank" rel="noopener" href="https://www.minimax.io/news/minimax-m27-en">MiniMax M2.7</a></td>
+<td>2026 年 3 月</td>
+<td>MiniMax 当前重点发布的 Agent / Productivity 模型，面向复杂 Agent harness、技能、动态工具搜索和办公生产力任务。</td>
+</tr>
+<tr>
+<td>AI Agent 产品</td>
+<td><a target="_blank" rel="noopener" href="https://agent.minimax.io/">MiniMax Agent</a></td>
+<td>2026 年 3 月</td>
+<td>MiniMax 面向 Agent 工作流的产品入口，M2.7 官方发布中也将其作为可用入口。</td>
+</tr>
+<tr>
+<td>视频生成</td>
+<td><a target="_blank" rel="noopener" href="https://hailuoai.video/">Hailuo AI</a></td>
+<td>2024 年 9 月</td>
+<td>MiniMax 面向 C 端和海外市场的多模态视频生成产品。</td>
+</tr>
+</tbody></table>
+<p><strong>访谈 / 播客</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV11NmtBzE36/">B 站：MiniMax 创始人闫俊杰 × 罗永浩：大山并非无法翻越</a></li>
+<li><a target="_blank" rel="noopener" href="https://finance.sina.com.cn/roll/2026-01-29/doc-inhixkak3403171.shtml">环球时报 / 新浪财经：闫俊杰专访</a></li>
+</ul>
+<hr>
+<h3 id="8-字节跳动"><a href="#8-字节跳动" class="headerlink" title="8. 字节跳动"></a>8. 字节跳动</h3><p><strong>公司概况</strong></p>
+<p>字节跳动是中国主要互联网内容平台公司之一。在 AI 方向，它主要通过 Seed 模型线、豆包 App、TRAE、Coze、Seedance 和火山引擎展开。</p>
+<p>对普通用户来说，可以把字节跳动理解为公司主体，Seed 是模型线，豆包是用户入口，TRAE 是面向开发者的 AI Coding 产品。</p>
+<p><strong>主要负责人</strong></p>
+<ul>
+<li><strong>梁汝波</strong>：字节跳动 CEO。</li>
+<li><strong>Seed Team</strong>：字节跳动基础模型研发团队。</li>
+</ul>
+<p><strong>模型与产品</strong></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>名称</th>
+<th>发布时间</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>旗舰 / 主力模型</td>
+<td><a target="_blank" rel="noopener" href="https://seed.bytedance.com/en/blog/seed2-0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83">Seed 2.0 / 豆包大模型 2.0</a></td>
+<td>2026 年 2 月</td>
+<td>ByteDance Seed 发布的 2.0 系列模型，包括 Pro、Lite、Mini 和 Code，并已接入豆包 App、TRAE 和火山引擎。</td>
+</tr>
+<tr>
+<td>用户产品</td>
+<td><a target="_blank" rel="noopener" href="https://www.doubao.com/">豆包 App</a></td>
+<td>2023 年 8 月</td>
+<td>字节跳动面向普通用户的 AI 助手入口。</td>
+</tr>
+<tr>
+<td>AI Coding 工具</td>
+<td><a target="_blank" rel="noopener" href="https://www.trae.ai/">TRAE</a></td>
+<td>2025 年 1 月</td>
+<td>字节面向开发者的 AI Coding 产品，可使用豆包大模型能力。</td>
+</tr>
+<tr>
+<td>视频生成</td>
+<td><a target="_blank" rel="noopener" href="https://seed.bytedance.com/en/seedance2_0">Seedance 2.0</a></td>
+<td>2026 年 2 月</td>
+<td>ByteDance Seed 的视频生成模型方向，支持文本、图像、音频和视频输入。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="快速对照表"><a href="#快速对照表" class="headerlink" title="快速对照表"></a>快速对照表</h2><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>主要负责人</th>
+<th>最新旗舰模型</th>
+<th>发布时间</th>
+<th>代表产品</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>OpenAI</td>
+<td>Sam Altman</td>
+<td>GPT-5.5</td>
+<td>2026 年 4 月</td>
+<td>ChatGPT、Codex、GPT Image 2</td>
+</tr>
+<tr>
+<td>Anthropic</td>
+<td>Dario Amodei</td>
+<td>Claude Opus 4.7</td>
+<td>2026 年 4 月</td>
+<td>Claude、Claude Code</td>
+</tr>
+<tr>
+<td>Google DeepMind</td>
+<td>Demis Hassabis</td>
+<td>Gemini 3.1 Pro</td>
+<td>2026 年 2 月</td>
+<td>Gemini、NotebookLM、Google AI Studio、Nano Banana Pro</td>
+</tr>
+<tr>
+<td>xAI</td>
+<td>Elon Musk</td>
+<td>Grok 4.3</td>
+<td>2026 年 5 月</td>
+<td>Grok</td>
+</tr>
+<tr>
+<td>DeepSeek</td>
+<td>梁文锋</td>
+<td>DeepSeek-V4-Pro / V4-Flash</td>
+<td>2026 年 4 月</td>
+<td>DeepSeek Chat、DeepSeek API</td>
+</tr>
+<tr>
+<td>阿里巴巴</td>
+<td>林俊旸</td>
+<td>Qwen3.5</td>
+<td>2026 年 2 月</td>
+<td>Qwen Chat、Qwen 开源模型</td>
+</tr>
+<tr>
+<td>腾讯</td>
+<td>姚顺雨</td>
+<td>Hy3 preview</td>
+<td>2026 年 4 月</td>
+<td>腾讯元宝、腾讯混元</td>
+</tr>
+<tr>
+<td>小米</td>
+<td>罗福莉</td>
+<td>MiMo-V2.5-Pro</td>
+<td>2026 年 4 月</td>
+<td>MiMo-V2.5-Pro</td>
+</tr>
+<tr>
+<td>智谱 AI</td>
+<td>张鹏、唐杰</td>
+<td>GLM-5.1</td>
+<td>2026 年 4 月</td>
+<td>智谱清言</td>
+</tr>
+<tr>
+<td>月之暗面</td>
+<td>杨植麟</td>
+<td>Kimi K2.6</td>
+<td>2026 年 4 月</td>
+<td>Kimi、Kimi Code</td>
+</tr>
+<tr>
+<td>MiniMax</td>
+<td>闫俊杰</td>
+<td>MiniMax M2.7</td>
+<td>2026 年 3 月</td>
+<td>MiniMax Agent、海螺 AI、Talkie</td>
+</tr>
+<tr>
+<td>字节跳动</td>
+<td>梁汝波、Seed Team</td>
+<td>Seed 2.0 / 豆包大模型 2.0</td>
+<td>2026 年 2 月</td>
+<td>豆包 App、TRAE、Seedance</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>以上就是这次整理的 AI 巨头清单。</p>
+<p>如果你刚开始系统了解 AI 行业，可以把这篇文章当作一张入门地图；如果你已经在使用这些产品，也不妨顺着文中的访谈和播客，继续了解每家公司背后的思路和故事。</p>
+<p>后续我也会持续在频道更新 AI 相关的文章，感兴趣的朋友欢迎关注。我们下期再见 👋</p>
 
                 
             </div>
@@ -1472,7 +1951,7 @@ claude
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://ricky2333.github.io/2026/02/16/ai-gong-fang-claude-code-zhi-bei/">https://ricky2333.github.io/2026/02/16/ai-gong-fang-claude-code-zhi-bei/</a>
+                    <a href="https://ricky2333.github.io/2026/06/03/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/">https://ricky2333.github.io/2026/06/03/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1514,12 +1993,12 @@ claude
                                     <span class="chip bg-color">人工智能</span>
                                 </a>
                             
-                                <a href="/tags/AI-Coding/">
-                                    <span class="chip bg-color">AI Coding</span>
+                                <a href="/tags/AI%E6%89%8B%E8%AE%B0/">
+                                    <span class="chip bg-color">AI手记</span>
                                 </a>
                             
-                                <a href="/tags/Claude-Code/">
-                                    <span class="chip bg-color">Claude Code</span>
+                                <a href="/tags/AI%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F/">
+                                    <span class="chip bg-color">AI行业观察</span>
                                 </a>
                             
                         </div>
@@ -1689,49 +2168,55 @@ claude
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2026/03/07/she-ying-si-cang-she-ying-shi-qing-dan/">
+                <a href="/2026/06/03/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/26.jpg" class="responsive-img" alt="摄影｜私藏摄影师清单">
+                        <img src="/medias/featureimages/38.jpg" class="responsive-img" alt="AI手记｜国内外AI巨头调研">
                         
-                        <span class="card-title">摄影｜私藏摄影师清单</span>
+                        <span class="card-title">AI手记｜国内外AI巨头调研</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            摊主私藏の摄影博主
+                            AI巨头、关键人物、代表模型调研清单
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2026-03-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-06-03
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%91%84%E5%BD%B1/" class="post-category">
-                                    摄影
+                            <a href="/categories/AI%E6%89%8B%E8%AE%B0/" class="post-category">
+                                    AI手记
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%91%84%E5%BD%B1/">
-                        <span class="chip bg-color">摄影</span>
+                    <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">
+                        <span class="chip bg-color">人工智能</span>
                     </a>
                     
-                    <a href="/tags/%E6%91%84%E5%BD%B1%E9%89%B4%E8%B5%8F/">
-                        <span class="chip bg-color">摄影鉴赏</span>
+                    <a href="/tags/AI%E6%89%8B%E8%AE%B0/">
+                        <span class="chip bg-color">AI手记</span>
+                    </a>
+                    
+                    <a href="/tags/AI%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F/">
+                        <span class="chip bg-color">AI行业观察</span>
                     </a>
                     
                 </div>
@@ -1745,23 +2230,23 @@ claude
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2026/02/16/ai-gong-fang-claude-code-bu-shu/">
+                <a href="/2026/05/22/ai-gong-fang-yun-fu-wu-qi-pei-zhi-gui/">
                     <div class="card-image">
                         
-                        <img src="/medias/featureimages/33.jpg" class="responsive-img" alt="AI工坊｜Claude Code部署">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="AI工坊｜云服务器GUI配置">
                         
-                        <span class="card-title">AI工坊｜Claude Code部署</span>
+                        <span class="card-title">AI工坊｜云服务器GUI配置</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Claude Code + MiniMax M2.5 部署教程
+                            在腾讯云 Lighthouse 服务器上配置GUI
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2026-02-16
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-05-22
                             </span>
                         <span class="publish-author">
                             
@@ -1778,20 +2263,20 @@ claude
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">
-                        <span class="chip bg-color">人工智能</span>
-                    </a>
-                    
-                    <a href="/tags/AI%E5%B7%A5%E5%85%B7/">
-                        <span class="chip bg-color">AI工具</span>
-                    </a>
-                    
-                    <a href="/tags/AI-Coding/">
-                        <span class="chip bg-color">AI Coding</span>
-                    </a>
-                    
                     <a href="/tags/AI/">
                         <span class="chip bg-color">AI</span>
+                    </a>
+                    
+                    <a href="/tags/Linux/">
+                        <span class="chip bg-color">Linux</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+                        <span class="chip bg-color">服务器</span>
+                    </a>
+                    
+                    <a href="/tags/AI%E5%B7%A5%E5%9D%8A/">
+                        <span class="chip bg-color">AI工坊</span>
                     </a>
                     
                 </div>
@@ -2041,7 +2526,7 @@ claude
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">316k</span>&nbsp;字
+                class="white-color">319.9k</span>&nbsp;字
             
             
             
