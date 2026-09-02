@@ -6,7 +6,7 @@
   <link href="https://rickyxcoder.github.io/atom.xml" rel="self"/>
   
   <link href="https://rickyxcoder.github.io/"/>
-  <updated>2026-07-19T06:33:18.430Z</updated>
+  <updated>2026-09-01T06:25:13.542Z</updated>
   <id>https://rickyxcoder.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>AI手记｜国内外AI巨头调研</title>
-    <link href="https://rickyxcoder.github.io/2026/07/03/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/"/>
-    <id>https://rickyxcoder.github.io/2026/07/03/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/</id>
-    <published>2026-07-03T02:00:00.000Z</published>
-    <updated>2026-07-19T06:33:18.430Z</updated>
+    <link href="https://rickyxcoder.github.io/2026/08/30/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/"/>
+    <id>https://rickyxcoder.github.io/2026/08/30/ai-shou-ji-guo-nei-wai-ai-ju-tou-diao-yan/</id>
+    <published>2026-08-30T02:00:00.000Z</published>
+    <updated>2026-09-01T06:25:13.542Z</updated>
     
     
       
@@ -50,42 +50,11 @@
   </entry>
   
   <entry>
-    <title>镜头档案｜全画幅｜28mm</title>
-    <link href="https://rickyxcoder.github.io/2026/06/11/she-ying-quan-hua-fu-jing-tou-28mm/"/>
-    <id>https://rickyxcoder.github.io/2026/06/11/she-ying-quan-hua-fu-jing-tou-28mm/</id>
-    <published>2026-06-11T06:15:04.000Z</published>
-    <updated>2026-07-28T10:29:30.621Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;全画幅镜头｜28-x2F-26mm&quot;&gt;&lt;a href=&quot;#全画幅镜头｜28-x2F-26mm&quot; class=&quot;headerlink&quot; title=&quot;全画幅镜头｜28/26mm&quot;&gt;&lt;/a&gt;全画幅镜头｜28/26mm&lt;/h1&gt;&lt;h2 id=&quot;28mm&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="LensArchive" scheme="https://rickyxcoder.github.io/categories/LensArchive/"/>
-    
-    
-    <category term="摄影" scheme="https://rickyxcoder.github.io/tags/%E6%91%84%E5%BD%B1/"/>
-    
-    <category term="全画幅镜头" scheme="https://rickyxcoder.github.io/tags/%E5%85%A8%E7%94%BB%E5%B9%85%E9%95%9C%E5%A4%B4/"/>
-    
-    <category term="28mm" scheme="https://rickyxcoder.github.io/tags/28mm/"/>
-    
-    <category term="饼干头" scheme="https://rickyxcoder.github.io/tags/%E9%A5%BC%E5%B9%B2%E5%A4%B4/"/>
-    
-  </entry>
-  
-  <entry>
     <title>AI工坊｜云服务器GUI配置</title>
-    <link href="https://rickyxcoder.github.io/2026/05/22/ai-gong-fang-yun-fu-wu-qi-pei-zhi-gui/"/>
-    <id>https://rickyxcoder.github.io/2026/05/22/ai-gong-fang-yun-fu-wu-qi-pei-zhi-gui/</id>
-    <published>2026-05-22T04:40:00.000Z</published>
-    <updated>2026-05-22T17:46:32.582Z</updated>
+    <link href="https://rickyxcoder.github.io/2026/08/14/ai-gong-fang-yun-fu-wu-qi-pei-zhi-gui/"/>
+    <id>https://rickyxcoder.github.io/2026/08/14/ai-gong-fang-yun-fu-wu-qi-pei-zhi-gui/</id>
+    <published>2026-08-14T04:40:00.000Z</published>
+    <updated>2026-09-01T06:25:40.075Z</updated>
     
     
       
@@ -113,10 +82,10 @@
   
   <entry>
     <title>AI重构了我的工作流｜Git</title>
-    <link href="https://rickyxcoder.github.io/2026/05/12/ai-gong-zuo-liu-cc-jie-guan-github/"/>
-    <id>https://rickyxcoder.github.io/2026/05/12/ai-gong-zuo-liu-cc-jie-guan-github/</id>
-    <published>2026-05-12T02:00:00.000Z</published>
-    <updated>2026-05-12T06:09:33.273Z</updated>
+    <link href="https://rickyxcoder.github.io/2026/07/20/ai-gong-zuo-liu-cc-jie-guan-github/"/>
+    <id>https://rickyxcoder.github.io/2026/07/20/ai-gong-zuo-liu-cc-jie-guan-github/</id>
+    <published>2026-07-20T02:00:00.000Z</published>
+    <updated>2026-09-01T06:27:28.162Z</updated>
     
     
       
@@ -144,357 +113,11 @@
   </entry>
   
   <entry>
-    <title>AI工坊｜Claude Code 指北</title>
-    <link href="https://rickyxcoder.github.io/2026/04/25/ai-gong-fang-claude-code-zhi-bei/"/>
-    <id>https://rickyxcoder.github.io/2026/04/25/ai-gong-fang-claude-code-zhi-bei/</id>
-    <published>2026-04-25T06:30:00.000Z</published>
-    <updated>2026-06-11T09:24:35.576Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Claude Code 是 &lt;a href=&quot;https://www.anthropic.com/&quot;&gt;Anthropic&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="AI工坊" scheme="https://rickyxcoder.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
-    
-    
-    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="AI Coding" scheme="https://rickyxcoder.github.io/tags/AI-Coding/"/>
-    
-    <category term="Claude Code" scheme="https://rickyxcoder.github.io/tags/Claude-Code/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI手记｜教非工科学长Vibe Coding学到的...</title>
-    <link href="https://rickyxcoder.github.io/2026/04/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/"/>
-    <id>https://rickyxcoder.github.io/2026/04/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/</id>
-    <published>2026-04-08T05:02:35.000Z</published>
-    <updated>2026-06-11T09:23:03.940Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;AI手记｜教学长Vibe-Coding学到的三件事&quot;&gt;&lt;a href=&quot;#AI手记｜教学长Vibe-Coding学到的三件事&quot; class=&quot;headerlink&quot; title=&quot;AI手记｜教学长Vibe</summary>
-        
-      
-    
-    
-    
-    <category term="AI手记" scheme="https://rickyxcoder.github.io/categories/AI%E6%89%8B%E8%AE%B0/"/>
-    
-    
-    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
-    
-    <category term="Vibe Coding" scheme="https://rickyxcoder.github.io/tags/Vibe-Coding/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI工坊｜Claude Code部署</title>
-    <link href="https://rickyxcoder.github.io/2026/03/28/ai-gong-fang-claude-code-bu-shu/"/>
-    <id>https://rickyxcoder.github.io/2026/03/28/ai-gong-fang-claude-code-bu-shu/</id>
-    <published>2026-03-28T05:58:33.000Z</published>
-    <updated>2026-06-11T09:24:59.064Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;本文使用设备&lt;/strong&gt;：MacBook Pro (M1 Pro, 16GB)，macOS Monterey 12.3.1，仅供参考&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="AI工坊" scheme="https://rickyxcoder.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
-    
-    
-    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="AI Coding" scheme="https://rickyxcoder.github.io/tags/AI-Coding/"/>
-    
-    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
-    
-    <category term="AI工具" scheme="https://rickyxcoder.github.io/tags/AI%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI手记｜AI帮你做旅游攻略</title>
-    <link href="https://rickyxcoder.github.io/2026/03/14/ai-shou-ji-shang-hai-wu-xi-yi-ri-you-gong-lue-dou-bao-ai-fu-zhu-ban/"/>
-    <id>https://rickyxcoder.github.io/2026/03/14/ai-shou-ji-shang-hai-wu-xi-yi-ri-you-gong-lue-dou-bao-ai-fu-zhu-ban/</id>
-    <published>2026-03-14T15:15:23.000Z</published>
-    <updated>2026-07-19T06:35:03.547Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;AI手记｜上海→无锡一日游攻略（豆包AI辅助版）&quot;&gt;&lt;a href=&quot;#AI手记｜上海→无锡一日游攻略（豆包AI辅助版）&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="AI手记" scheme="https://rickyxcoder.github.io/categories/AI%E6%89%8B%E8%AE%B0/"/>
-    
-    
-    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>镜头档案｜全画幅｜85mm</title>
-    <link href="https://rickyxcoder.github.io/2026/02/19/she-ying-quan-hua-fu-jing-tou-85mm/"/>
-    <id>https://rickyxcoder.github.io/2026/02/19/she-ying-quan-hua-fu-jing-tou-85mm/</id>
-    <published>2026-02-19T06:14:51.000Z</published>
-    <updated>2026-07-28T16:53:35.053Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;全画幅镜头｜85mm&quot;&gt;&lt;a href=&quot;#全画幅镜头｜85mm&quot; class=&quot;headerlink&quot; title=&quot;全画幅镜头｜85mm&quot;&gt;&lt;/a&gt;全画幅镜头｜85mm&lt;/h1&gt;&lt;h2 id=&quot;85mm-F1-4&quot;&gt;&lt;a href=&quot;#85mm-F1-4&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="LensArchive" scheme="https://rickyxcoder.github.io/categories/LensArchive/"/>
-    
-    
-    <category term="摄影" scheme="https://rickyxcoder.github.io/tags/%E6%91%84%E5%BD%B1/"/>
-    
-    <category term="全画幅镜头" scheme="https://rickyxcoder.github.io/tags/%E5%85%A8%E7%94%BB%E5%B9%85%E9%95%9C%E5%A4%B4/"/>
-    
-    <category term="85mm" scheme="https://rickyxcoder.github.io/tags/85mm/"/>
-    
-    <category term="人像摄影" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%83%8F%E6%91%84%E5%BD%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>摄影｜构图指北</title>
-    <link href="https://rickyxcoder.github.io/2026/02/16/she-ying-ji-chu-gou-tu/"/>
-    <id>https://rickyxcoder.github.io/2026/02/16/she-ying-ji-chu-gou-tu/</id>
-    <published>2026-02-16T14:15:58.000Z</published>
-    <updated>2026-06-11T09:20:51.345Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;摄影｜构图&quot;&gt;&lt;a href=&quot;#摄影｜构图&quot; class=&quot;headerlink&quot; title=&quot;摄影｜构图&quot;&gt;&lt;/a&gt;摄影｜构图&lt;/h1&gt;&lt;h2 id=&quot;学习资料&quot;&gt;&lt;a href=&quot;#学习资料&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="摄影" scheme="https://rickyxcoder.github.io/categories/%E6%91%84%E5%BD%B1/"/>
-    
-    
-    <category term="摄影" scheme="https://rickyxcoder.github.io/tags/%E6%91%84%E5%BD%B1/"/>
-    
-    <category term="构图" scheme="https://rickyxcoder.github.io/tags/%E6%9E%84%E5%9B%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI手记｜Matt Shumer博客</title>
-    <link href="https://rickyxcoder.github.io/2026/02/14/ai-shou-ji-matt-shumer-zui-xin-bo-ke/"/>
-    <id>https://rickyxcoder.github.io/2026/02/14/ai-shou-ji-matt-shumer-zui-xin-bo-ke/</id>
-    <published>2026-02-14T14:14:53.000Z</published>
-    <updated>2026-03-07T15:14:04.559Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;AI手记｜《Something-big-is-happening》解读&quot;&gt;&lt;a href=&quot;#AI手记｜《Something-big-is-happening》解读&quot; class=&quot;headerlink&quot; title=&quot;AI手记｜《Something big</summary>
-        
-      
-    
-    
-    
-    <category term="AI手记" scheme="https://rickyxcoder.github.io/categories/AI%E6%89%8B%E8%AE%B0/"/>
-    
-    
-    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
-    
-    <category term="AI手记" scheme="https://rickyxcoder.github.io/tags/AI%E6%89%8B%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI手记｜达沃斯论坛2026</title>
-    <link href="https://rickyxcoder.github.io/2026/02/14/ai-shou-ji-da-wo-si-lun-tan-2026/"/>
-    <id>https://rickyxcoder.github.io/2026/02/14/ai-shou-ji-da-wo-si-lun-tan-2026/</id>
-    <published>2026-02-14T12:32:10.000Z</published>
-    <updated>2026-03-19T13:03:16.617Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;在两大-AI-巨头-Anthropic与DeepMind-的达沃斯论坛对话中，我看到的2026年&quot;&gt;&lt;a href=&quot;#在两大-AI-巨头-Anthropic与DeepMind-的达沃斯论坛对话中，我看到的2026年&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="AI手记" scheme="https://rickyxcoder.github.io/categories/AI%E6%89%8B%E8%AE%B0/"/>
-    
-    
-    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
-    
-    <category term="Agent" scheme="https://rickyxcoder.github.io/tags/Agent/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>摄影｜私藏摄影师清单</title>
-    <link href="https://rickyxcoder.github.io/2026/02/11/she-ying-si-cang-she-ying-shi-qing-dan/"/>
-    <id>https://rickyxcoder.github.io/2026/02/11/she-ying-si-cang-she-ying-shi-qing-dan/</id>
-    <published>2026-02-11T02:22:03.000Z</published>
-    <updated>2026-06-11T09:20:36.457Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;摊主推荐の摄影博主&quot;&gt;&lt;a href=&quot;#摊主推荐の摄影博主&quot; class=&quot;headerlink&quot; title=&quot;摊主推荐の摄影博主&quot;&gt;&lt;/a&gt;摊主推荐の摄影博主&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;这是一份摊主私藏的摄影博主推荐清单。 </summary>
-        
-      
-    
-    
-    
-    <category term="摄影" scheme="https://rickyxcoder.github.io/categories/%E6%91%84%E5%BD%B1/"/>
-    
-    
-    <category term="摄影" scheme="https://rickyxcoder.github.io/tags/%E6%91%84%E5%BD%B1/"/>
-    
-    <category term="摄影鉴赏" scheme="https://rickyxcoder.github.io/tags/%E6%91%84%E5%BD%B1%E9%89%B4%E8%B5%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高中信技｜必修一章节概要</title>
-    <link href="https://rickyxcoder.github.io/2026/02/10/gao-zhong-xin-xi-ji-zhu-bi-xiu-yi-zhang-jie-gai-yao/"/>
-    <id>https://rickyxcoder.github.io/2026/02/10/gao-zhong-xin-xi-ji-zhu-bi-xiu-yi-zhang-jie-gai-yao/</id>
-    <published>2026-02-10T08:09:43.000Z</published>
-    <updated>2026-02-16T08:19:19.315Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;高中信息技术必修一章节概要&quot;&gt;&lt;a href=&quot;#高中信息技术必修一章节概要&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="高中信息技术" scheme="https://rickyxcoder.github.io/categories/%E9%AB%98%E4%B8%AD%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/"/>
-    
-    
-    <category term="高中信息技术" scheme="https://rickyxcoder.github.io/tags/%E9%AB%98%E4%B8%AD%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="必修一" scheme="https://rickyxcoder.github.io/tags/%E5%BF%85%E4%BF%AE%E4%B8%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python VS C（下篇）</title>
-    <link href="https://rickyxcoder.github.io/2026/02/08/python-vs-c-xia-pian/"/>
-    <id>https://rickyxcoder.github.io/2026/02/08/python-vs-c-xia-pian/</id>
-    <published>2026-02-08T11:16:29.000Z</published>
-    <updated>2026-02-14T13:09:40.410Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;写在最前-✍️&quot;&gt;&lt;a href=&quot;#写在最前-✍️&quot; class=&quot;headerlink&quot; title=&quot;写在最前 ✍️&quot;&gt;&lt;/a&gt;写在最前 ✍️&lt;/h2&gt;&lt;p&gt;在上一篇博客 &lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="CS50" scheme="https://rickyxcoder.github.io/tags/CS50/"/>
-    
-    <category term="Python" scheme="https://rickyxcoder.github.io/tags/Python/"/>
-    
-    <category term="C" scheme="https://rickyxcoder.github.io/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python VS C（上篇）</title>
-    <link href="https://rickyxcoder.github.io/2026/02/03/python-vs-c-shang-pian/"/>
-    <id>https://rickyxcoder.github.io/2026/02/03/python-vs-c-shang-pian/</id>
-    <published>2026-02-03T02:20:06.000Z</published>
-    <updated>2026-02-14T13:08:26.108Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;写在最前-✍️&quot;&gt;&lt;a href=&quot;#写在最前-✍️&quot; class=&quot;headerlink&quot; title=&quot;写在最前 ✍️&quot;&gt;&lt;/a&gt;写在最前 ✍️&lt;/h2&gt;&lt;p&gt;相信不少科班的同学最先学习的编程语言是</summary>
-        
-      
-    
-    
-    
-    <category term="Python基础" scheme="https://rickyxcoder.github.io/categories/Python%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="CS50" scheme="https://rickyxcoder.github.io/tags/CS50/"/>
-    
-    <category term="Python" scheme="https://rickyxcoder.github.io/tags/Python/"/>
-    
-    <category term="C" scheme="https://rickyxcoder.github.io/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
     <title>镜头档案｜全画幅｜35mm</title>
-    <link href="https://rickyxcoder.github.io/2026/01/27/she-ying-quan-hua-fu-jing-tou-35mm/"/>
-    <id>https://rickyxcoder.github.io/2026/01/27/she-ying-quan-hua-fu-jing-tou-35mm/</id>
-    <published>2026-01-27T07:20:00.000Z</published>
-    <updated>2026-07-28T10:30:36.895Z</updated>
+    <link href="https://rickyxcoder.github.io/2026/06/13/she-ying-quan-hua-fu-jing-tou-35mm/"/>
+    <id>https://rickyxcoder.github.io/2026/06/13/she-ying-quan-hua-fu-jing-tou-35mm/</id>
+    <published>2026-06-13T07:20:00.000Z</published>
+    <updated>2026-09-01T06:31:38.286Z</updated>
     
     
       
@@ -521,11 +144,40 @@
   </entry>
   
   <entry>
+    <title>AI手记｜教非工科学长Vibe Coding学到的...</title>
+    <link href="https://rickyxcoder.github.io/2026/06/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/"/>
+    <id>https://rickyxcoder.github.io/2026/06/08/ai-shou-ji-jiao-xue-chang-vibe-coding-xue-dao-de/</id>
+    <published>2026-06-08T05:02:35.000Z</published>
+    <updated>2026-09-01T06:26:53.657Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;AI手记｜教学长Vibe-Coding学到的三件事&quot;&gt;&lt;a href=&quot;#AI手记｜教学长Vibe-Coding学到的三件事&quot; class=&quot;headerlink&quot; title=&quot;AI手记｜教学长Vibe</summary>
+        
+      
+    
+    
+    
+    <category term="AI手记" scheme="https://rickyxcoder.github.io/categories/AI%E6%89%8B%E8%AE%B0/"/>
+    
+    
+    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
+    
+    <category term="Vibe Coding" scheme="https://rickyxcoder.github.io/tags/Vibe-Coding/"/>
+    
+  </entry>
+  
+  <entry>
     <title>科研日记｜报告心得记录</title>
-    <link href="https://rickyxcoder.github.io/2026/01/25/ke-yan-ri-ji-jiang-zuo-xin-de-ji-lu-1/"/>
-    <id>https://rickyxcoder.github.io/2026/01/25/ke-yan-ri-ji-jiang-zuo-xin-de-ji-lu-1/</id>
-    <published>2026-01-25T14:44:19.000Z</published>
-    <updated>2026-01-27T10:33:52.699Z</updated>
+    <link href="https://rickyxcoder.github.io/2026/05/29/ke-yan-ri-ji-jiang-zuo-xin-de-ji-lu-1/"/>
+    <id>https://rickyxcoder.github.io/2026/05/29/ke-yan-ri-ji-jiang-zuo-xin-de-ji-lu-1/</id>
+    <published>2026-05-29T14:44:19.000Z</published>
+    <updated>2026-09-01T06:30:36.262Z</updated>
     
     
       
@@ -548,6 +200,210 @@
     <category term="科研经验" scheme="https://rickyxcoder.github.io/tags/%E7%A7%91%E7%A0%94%E7%BB%8F%E9%AA%8C/"/>
     
     <category term="讲座笔记" scheme="https://rickyxcoder.github.io/tags/%E8%AE%B2%E5%BA%A7%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI工坊｜Claude Code 指北</title>
+    <link href="https://rickyxcoder.github.io/2026/05/03/ai-gong-fang-claude-code-zhi-bei/"/>
+    <id>https://rickyxcoder.github.io/2026/05/03/ai-gong-fang-claude-code-zhi-bei/</id>
+    <published>2026-05-03T06:30:00.000Z</published>
+    <updated>2026-09-01T06:30:51.093Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Claude Code 是 &lt;a href=&quot;https://www.anthropic.com/&quot;&gt;Anthropic&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="AI工坊" scheme="https://rickyxcoder.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
+    
+    
+    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="AI Coding" scheme="https://rickyxcoder.github.io/tags/AI-Coding/"/>
+    
+    <category term="Claude Code" scheme="https://rickyxcoder.github.io/tags/Claude-Code/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI工坊｜Claude Code部署</title>
+    <link href="https://rickyxcoder.github.io/2026/04/05/ai-gong-fang-claude-code-bu-shu/"/>
+    <id>https://rickyxcoder.github.io/2026/04/05/ai-gong-fang-claude-code-bu-shu/</id>
+    <published>2026-04-05T05:58:33.000Z</published>
+    <updated>2026-09-01T06:36:02.640Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;本文使用设备&lt;/strong&gt;：MacBook Pro (M1 Pro, 16GB)，macOS Monterey 12.3.1，仅供参考&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AI工坊" scheme="https://rickyxcoder.github.io/categories/AI%E5%B7%A5%E5%9D%8A/"/>
+    
+    
+    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="AI Coding" scheme="https://rickyxcoder.github.io/tags/AI-Coding/"/>
+    
+    <category term="AI工具" scheme="https://rickyxcoder.github.io/tags/AI%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI手记｜AI帮你做旅游攻略</title>
+    <link href="https://rickyxcoder.github.io/2026/03/24/ai-shou-ji-shang-hai-wu-xi-yi-ri-you-gong-lue-dou-bao-ai-fu-zhu-ban/"/>
+    <id>https://rickyxcoder.github.io/2026/03/24/ai-shou-ji-shang-hai-wu-xi-yi-ri-you-gong-lue-dou-bao-ai-fu-zhu-ban/</id>
+    <published>2026-03-24T15:15:23.000Z</published>
+    <updated>2026-09-01T06:37:54.980Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;AI手记｜上海→无锡一日游攻略（豆包AI辅助版）&quot;&gt;&lt;a href=&quot;#AI手记｜上海→无锡一日游攻略（豆包AI辅助版）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AI手记" scheme="https://rickyxcoder.github.io/categories/AI%E6%89%8B%E8%AE%B0/"/>
+    
+    
+    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AI手记｜达沃斯论坛2026</title>
+    <link href="https://rickyxcoder.github.io/2026/02/26/ai-shou-ji-da-wo-si-lun-tan-2026/"/>
+    <id>https://rickyxcoder.github.io/2026/02/26/ai-shou-ji-da-wo-si-lun-tan-2026/</id>
+    <published>2026-02-26T12:32:10.000Z</published>
+    <updated>2026-09-01T06:36:45.050Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;在两大-AI-巨头-Anthropic与DeepMind-的达沃斯论坛对话中，我看到的2026年&quot;&gt;&lt;a href=&quot;#在两大-AI-巨头-Anthropic与DeepMind-的达沃斯论坛对话中，我看到的2026年&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="AI手记" scheme="https://rickyxcoder.github.io/categories/AI%E6%89%8B%E8%AE%B0/"/>
+    
+    
+    <category term="人工智能" scheme="https://rickyxcoder.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="AI" scheme="https://rickyxcoder.github.io/tags/AI/"/>
+    
+    <category term="Agent" scheme="https://rickyxcoder.github.io/tags/Agent/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python VS C（下篇）</title>
+    <link href="https://rickyxcoder.github.io/2026/02/19/python-vs-c-xia-pian/"/>
+    <id>https://rickyxcoder.github.io/2026/02/19/python-vs-c-xia-pian/</id>
+    <published>2026-02-19T11:16:29.000Z</published>
+    <updated>2026-09-01T06:37:14.879Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;写在最前-✍️&quot;&gt;&lt;a href=&quot;#写在最前-✍️&quot; class=&quot;headerlink&quot; title=&quot;写在最前 ✍️&quot;&gt;&lt;/a&gt;写在最前 ✍️&lt;/h2&gt;&lt;p&gt;在上一篇博客 &lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="CS50" scheme="https://rickyxcoder.github.io/tags/CS50/"/>
+    
+    <category term="Python" scheme="https://rickyxcoder.github.io/tags/Python/"/>
+    
+    <category term="C" scheme="https://rickyxcoder.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高中信技｜必修一章节概要</title>
+    <link href="https://rickyxcoder.github.io/2026/02/01/gao-zhong-xin-xi-ji-zhu-bi-xiu-yi-zhang-jie-gai-yao/"/>
+    <id>https://rickyxcoder.github.io/2026/02/01/gao-zhong-xin-xi-ji-zhu-bi-xiu-yi-zhang-jie-gai-yao/</id>
+    <published>2026-02-01T08:09:43.000Z</published>
+    <updated>2026-09-01T06:38:28.377Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;高中信息技术必修一章节概要&quot;&gt;&lt;a href=&quot;#高中信息技术必修一章节概要&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="高中信息技术" scheme="https://rickyxcoder.github.io/categories/%E9%AB%98%E4%B8%AD%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="高中信息技术" scheme="https://rickyxcoder.github.io/tags/%E9%AB%98%E4%B8%AD%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="必修一" scheme="https://rickyxcoder.github.io/tags/%E5%BF%85%E4%BF%AE%E4%B8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>摄影｜全画幅镜头｜50mm</title>
+    <link href="https://rickyxcoder.github.io/2026/01/20/she-ying-quan-hua-fu-jing-tou-50mm/"/>
+    <id>https://rickyxcoder.github.io/2026/01/20/she-ying-quan-hua-fu-jing-tou-50mm/</id>
+    <published>2026-01-20T11:40:08.000Z</published>
+    <updated>2026-09-01T06:43:08.831Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;全画幅镜头｜50-x2F-55mm&quot;&gt;&lt;a href=&quot;#全画幅镜头｜50-x2F-55mm&quot; class=&quot;headerlink&quot; title=&quot;全画幅镜头｜50/55mm&quot;&gt;&lt;/a&gt;全画幅镜头｜50/55mm&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="LensArchive" scheme="https://rickyxcoder.github.io/categories/LensArchive/"/>
+    
+    
+    <category term="摄影" scheme="https://rickyxcoder.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    
+    <category term="全画幅镜头" scheme="https://rickyxcoder.github.io/tags/%E5%85%A8%E7%94%BB%E5%B9%85%E9%95%9C%E5%A4%B4/"/>
+    
+    <category term="50mm" scheme="https://rickyxcoder.github.io/tags/50mm/"/>
+    
+    <category term="标准镜头" scheme="https://rickyxcoder.github.io/tags/%E6%A0%87%E5%87%86%E9%95%9C%E5%A4%B4/"/>
     
   </entry>
   
@@ -604,6 +460,158 @@
     <category term="AtCoder" scheme="https://rickyxcoder.github.io/tags/AtCoder/"/>
     
     <category term="set" scheme="https://rickyxcoder.github.io/tags/set/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder｜Minimum Width</title>
+    <link href="https://rickyxcoder.github.io/2026/01/12/atcoder-ti-jie-minimum-width/"/>
+    <id>https://rickyxcoder.github.io/2026/01/12/atcoder-ti-jie-minimum-width/</id>
+    <published>2026-01-12T11:54:02.000Z</published>
+    <updated>2026-01-27T09:40:50.142Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;AtCoder题解｜ABC-319-D-Minimum-Width&quot;&gt;&lt;a href=&quot;#AtCoder题解｜ABC-319-D-Minimum-Width&quot; class=&quot;headerlink&quot; title=&quot;AtCoder题解｜ABC 319 D -</summary>
+        
+      
+    
+    
+    
+    <category term="AtCoder题解" scheme="https://rickyxcoder.github.io/categories/AtCoder%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="信息奥赛" scheme="https://rickyxcoder.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A5%A5%E8%B5%9B/"/>
+    
+    <category term="C++" scheme="https://rickyxcoder.github.io/tags/C/"/>
+    
+    <category term="AtCoder" scheme="https://rickyxcoder.github.io/tags/AtCoder/"/>
+    
+    <category term="二分" scheme="https://rickyxcoder.github.io/tags/%E4%BA%8C%E5%88%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>镜头档案｜全画幅｜28mm</title>
+    <link href="https://rickyxcoder.github.io/2026/01/11/she-ying-quan-hua-fu-jing-tou-28mm/"/>
+    <id>https://rickyxcoder.github.io/2026/01/11/she-ying-quan-hua-fu-jing-tou-28mm/</id>
+    <published>2026-01-11T06:15:04.000Z</published>
+    <updated>2026-09-01T06:31:43.502Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;全画幅镜头｜28-x2F-26mm&quot;&gt;&lt;a href=&quot;#全画幅镜头｜28-x2F-26mm&quot; class=&quot;headerlink&quot; title=&quot;全画幅镜头｜28/26mm&quot;&gt;&lt;/a&gt;全画幅镜头｜28/26mm&lt;/h1&gt;&lt;h2 id=&quot;28mm&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="LensArchive" scheme="https://rickyxcoder.github.io/categories/LensArchive/"/>
+    
+    
+    <category term="摄影" scheme="https://rickyxcoder.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    
+    <category term="全画幅镜头" scheme="https://rickyxcoder.github.io/tags/%E5%85%A8%E7%94%BB%E5%B9%85%E9%95%9C%E5%A4%B4/"/>
+    
+    <category term="28mm" scheme="https://rickyxcoder.github.io/tags/28mm/"/>
+    
+    <category term="饼干头" scheme="https://rickyxcoder.github.io/tags/%E9%A5%BC%E5%B9%B2%E5%A4%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder题解｜ABC 111B</title>
+    <link href="https://rickyxcoder.github.io/2026/01/02/atcoder-ti-jie-abc-111b/"/>
+    <id>https://rickyxcoder.github.io/2026/01/02/atcoder-ti-jie-abc-111b/</id>
+    <published>2026-01-02T15:12:08.000Z</published>
+    <updated>2026-01-27T09:42:38.970Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;AtCoder题解｜ABC-111B&quot;&gt;&lt;a href=&quot;#AtCoder题解｜ABC-111B&quot; class=&quot;headerlink&quot; title=&quot;AtCoder题解｜ABC 111B&quot;&gt;&lt;/a&gt;AtCoder题解｜ABC 111B&lt;/h1&gt;&lt;hr&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="AtCoder题解" scheme="https://rickyxcoder.github.io/categories/AtCoder%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="信息奥赛" scheme="https://rickyxcoder.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A5%A5%E8%B5%9B/"/>
+    
+    <category term="AtCoder" scheme="https://rickyxcoder.github.io/tags/AtCoder/"/>
+    
+    <category term="数学" scheme="https://rickyxcoder.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python VS C（上篇）</title>
+    <link href="https://rickyxcoder.github.io/2025/12/29/python-vs-c-shang-pian/"/>
+    <id>https://rickyxcoder.github.io/2025/12/29/python-vs-c-shang-pian/</id>
+    <published>2025-12-29T02:20:06.000Z</published>
+    <updated>2026-09-01T06:40:05.115Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;写在最前-✍️&quot;&gt;&lt;a href=&quot;#写在最前-✍️&quot; class=&quot;headerlink&quot; title=&quot;写在最前 ✍️&quot;&gt;&lt;/a&gt;写在最前 ✍️&lt;/h2&gt;&lt;p&gt;相信不少科班的同学最先学习的编程语言是</summary>
+        
+      
+    
+    
+    
+    <category term="Python基础" scheme="https://rickyxcoder.github.io/categories/Python%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="CS50" scheme="https://rickyxcoder.github.io/tags/CS50/"/>
+    
+    <category term="Python" scheme="https://rickyxcoder.github.io/tags/Python/"/>
+    
+    <category term="C" scheme="https://rickyxcoder.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AtCoder｜False Hope</title>
+    <link href="https://rickyxcoder.github.io/2025/12/21/atcoder-ti-jie-false-hope/"/>
+    <id>https://rickyxcoder.github.io/2025/12/21/atcoder-ti-jie-false-hope/</id>
+    <published>2025-12-21T11:53:24.000Z</published>
+    <updated>2026-01-27T09:44:29.780Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;AtCoder题解｜ABC-319-C-False-Hope&quot;&gt;&lt;a href=&quot;#AtCoder题解｜ABC-319-C-False-Hope&quot; class=&quot;headerlink&quot; title=&quot;AtCoder题解｜ABC 319 C - False</summary>
+        
+      
+    
+    
+    
+    <category term="AtCoder题解" scheme="https://rickyxcoder.github.io/categories/AtCoder%E9%A2%98%E8%A7%A3/"/>
+    
+    
+    <category term="信息奥赛" scheme="https://rickyxcoder.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A5%A5%E8%B5%9B/"/>
+    
+    <category term="C++" scheme="https://rickyxcoder.github.io/tags/C/"/>
+    
+    <category term="AtCoder" scheme="https://rickyxcoder.github.io/tags/AtCoder/"/>
+    
+    <category term="排列" scheme="https://rickyxcoder.github.io/tags/%E6%8E%92%E5%88%97/"/>
     
   </entry>
   
