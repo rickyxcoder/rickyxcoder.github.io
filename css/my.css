@@ -1,4 +1,10 @@
 /* Here is your custom css styles. */
+/* 作品集入口加入后，小尺寸电脑只显示头像，给完整导航留出空间。 */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    header .brand-logo .logo-span { display: none; }
+    #headNav .nav-menu > li > a { padding: 0 9px; }
+}
+
 /* 修改首页轮播的标题大小 */
 @media only screen and (max-width: 601px) {
     .bg-cover .title {
